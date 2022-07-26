@@ -1,0 +1,56 @@
+/*
+  This is an example file, which demonstrates how the gradle helper scripts can be used
+ */
+
+ext.mpsVersion = "2022.2"
+ext.languageName = "mps-markdown"
+
+// here add your required plugins
+// to find a plugin entry, search in https://plugins.jetbrains.com/ for the plugin name and obtain the ID from URL (e.g. 13242 for grammarcells)
+// if you need a specific version for a plugin, add it in []-brackets
+// ext.mpsPlugins = [ "LangDoc[2022.2]": 12325 ]
+
+ext.mpsPlugins = []
+
+// alternative way to add itemis plugins directly from JetBrains plugin repository
+/*ext.mpsPlugins = [ "de.itemis.mps.extensions.build": 17136,
+                     "de.slisson.mps.editor.multiline" : 13253,
+                     "de.itemis.mps.grammarcells": 13242 ]*/
+
+// add plugins from custom URLs (which are not available in JetBrains' plugin repository)
+ext.customMpsPlugins = [
+        "de.itemis.mps.extensions": "https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/2022.2.2595.e45b182/extensions-2022.2.2595.e45b182.zip",
+        "TextGenGen (Fum)": "https://github.com/Fumapps/textGenGen/releases/download/2022.2-beta1/TextGenGen.zip"
+]
+
+apply from: 'gradle/init-gradle-scripts.gradle'
+
+task prepareMps {
+    group 'mps'
+    dependsOn 'buildOsSpecificBundle'
+}
+
+task mpsBuild {
+    group 'mps'
+    dependsOn 'mpsAntGenerate', 'mpsAntBuild'
+}
+
+task mpsClean {
+    group 'mps'
+    dependsOn 'mpsAntClean', 'mpsAntCleanSources'
+}
+
+task mpsTest {
+    group 'mps'
+    dependsOn 'mpsAntCheck', 'parseTestReportAfterAntCheck'
+}
+
+task openProjectInMps {
+    group 'mps'
+    dependsOn 'mpsOpenProjectInMpsForCurrentOs'
+}
+
+task buildAndOpenProjectInMps {
+    group 'mps'
+    dependsOn mpsBuild, openProjectInMps
+}

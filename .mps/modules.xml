@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.neumanntim.mps.markdown.sandbox/de.neumanntim.mps.markdown.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/mps-markdown.build/mps-markdown.build.msd" folder="" />
+    </projectModules>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/mps-gradle-scripts.iml" filepath="$PROJECT_DIR$/.idea/mps-gradle-scripts.iml" />
+    </modules>
+  </component>
+</project>

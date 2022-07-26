@@ -1,0 +1,73 @@
+def scripts = ["download-mps.gradle", "run-mps-ant.gradle", "init-gradle-scripts.gradle"]
+
+scripts.each {
+    def gradleScriptFile = file("$projectDir/gradle/$it")
+    if (gradleScriptFile.exists() && it != "init-gradle-scripts.gradle") {
+        apply from: gradleScriptFile
+    }
+}
+
+task downloadGradleScripts {
+    group 'mps-gradle'
+
+    doLast {
+        scripts.each {
+            def gradleScriptFile = file("$projectDir/gradle/$it")
+            gradleScriptFile.parentFile.mkdirs()
+            def url = new URL("https://github.com/vimotest/mps-gradle-scripts/raw/main/gradle/$it")
+            url.withInputStream {
+                inputStream -> gradleScriptFile.withOutputStream { outputStream -> outputStream << inputStream }
+            }
+            gradleScriptFile.text = "/* This file is downloaded from $url */\n\n${gradleScriptFile.text}"
+            gradleScriptFile.text = gradleScriptFile.text.replaceAll("\r\n", "\n")
+        }
+
+        migrateBuildGradleFileForCurrentGradleScripts()
+    }
+}
+
+// contains migration logic if gradle scripts contain breaking changes for the build.gradle file
+private def migrateBuildGradleFileForCurrentGradleScripts() {
+    def buildGradleFile = file("$projectDir/build.gradle")
+    if (!buildGradleFile.exists()) {
+        return
+    }
+    def buildGradleFileContent = buildGradleFile.text
+
+    // Issue #8: The task name openProjectInMpsForCurrentOs has the same prefix as openProjectInMps
+    buildGradleFileContent = buildGradleFileContent.replaceAll("'openProjectInMpsForCurrentOs'", "'mpsOpenProjectInMpsForCurrentOs'")
+
+    // Issue #10: mpsAntBuild should depend on mpsAntGenerate
+    buildGradleFileContent = buildGradleFileContent.replaceAll("dependsOn 'mpsAntCleanSources'", "dependsOn 'mpsAntClean', 'mpsAntCleanSources'")
+
+    if (buildGradleFile.text != buildGradleFileContent) {
+        println "Migrated build.gradle file to current gradle scripts"
+        buildGradleFile.text = buildGradleFileContent
+    }
+}
+
+def githubActionsFiles = ["github-actions-integration.yaml", "github-actions-release.yaml", "workflow-build.yaml"]
+task downloadGithubActionsScripts {
+    group 'mps-gradle'
+
+    doLast {
+        def languageNameForBuild = "MyLanguage"
+        if (project.hasProperty("languageName")) {
+            languageNameForBuild = project.languageName
+        }
+
+        githubActionsFiles.each {
+            def actionsFile = file("$projectDir/.github/workflows/$it")
+            actionsFile.parentFile.mkdirs()
+            def url = new URL("https://github.com/vimotest/mps-gradle-scripts/raw/main/.github/workflows/$it")
+            url.withInputStream {
+                inputStream -> actionsFile.withOutputStream { outputStream -> outputStream << inputStream }
+            }
+            actionsFile.text = "### This file is downloaded from $url\n\n${actionsFile.text}"
+            actionsFile.text = actionsFile.text
+                    .replaceAll("PROJECT_NAME: \"dummy-language\"", "PROJECT_NAME: \"$project.name\"")
+                    .replaceAll("LANGUAGE_NAME: \"MyDummyLanguage\"", "LANGUAGE_NAME: \"$languageNameForBuild\"")
+            actionsFile.text = actionsFile.text.replaceAll("\r\n", "\n")
+        }
+    }
+}
