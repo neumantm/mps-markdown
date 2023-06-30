@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:35931bb3-e228-495e-a51e-6d65c4e6eed4(de.neumanntim.mps.markdown.constraints)" content="root">
+  <persistence version="9" />
+  <imports>
+    <import index="mlia" ref="r:82b7010e-7356-42d9-a529-d70891b7b9bd(de.neumanntim.mps.markdown.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
+      <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
+        <reference id="1213093996982" name="concept" index="1M2myG" />
+        <reference id="1213106917431" name="defaultConcreteConcept" index="1MND4H" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1M2fIO" id="2ombABeqqQd">
+    <ref role="1M2myG" to="mlia:2ombABeqp6I" resolve="MarkdownElement" />
+    <ref role="1MND4H" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+  </node>
+</model>
+
