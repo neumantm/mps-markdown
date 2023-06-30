@@ -73,7 +73,7 @@
   </registry>
   <node concept="3ICUPy" id="6PCt4gxbyRI">
     <property role="3GE5qa" value="textline" />
-    <ref role="aqKnT" to="mlia:6PCt4gx9eEN" resolve="MdTextlineContent" />
+    <ref role="aqKnT" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
     <node concept="22hDWj" id="6PCt4gxbyU_" role="22hAXT" />
     <node concept="1Qtc8_" id="6PCt4gxbyXt" role="IW6Ez">
       <node concept="3eGOoe" id="6PCt4gxbz0n" role="1Qtc8$" />

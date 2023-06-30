@@ -24,7 +24,7 @@
     <property role="EcuMT" value="7883678983674720047" />
     <property role="3GE5qa" value="textline" />
     <property role="TrG5h" value="MdBasicText" />
-    <ref role="1TJDcQ" node="6PCt4gx9eEN" resolve="MdTextlineContent" />
+    <ref role="1TJDcQ" node="6PCt4gx9eEN" resolve="MdTextelement" />
   </node>
 </model>
 

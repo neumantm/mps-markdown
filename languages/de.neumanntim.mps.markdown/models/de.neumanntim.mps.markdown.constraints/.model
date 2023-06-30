@@ -16,6 +16,7 @@
   <imports>
     <import index="mlia" ref="r:82b7010e-7356-42d9-a529-d70891b7b9bd(de.neumanntim.mps.markdown.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
 </model>
 
