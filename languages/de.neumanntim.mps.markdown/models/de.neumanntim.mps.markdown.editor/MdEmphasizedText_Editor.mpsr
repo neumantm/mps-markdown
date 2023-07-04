@@ -17,6 +17,11 @@
         <property id="1186403771423" name="style" index="Vbekb" />
         <child id="1220975211821" name="query" index="17MNgL" />
       </concept>
+      <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
+        <property id="1186414551515" name="flag" index="VOm3f" />
+      </concept>
+      <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
+      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1220974635399" name="jetbrains.mps.lang.editor.structure.QueryFunction_FontStyle" flags="in" index="17KAyr" />
       <concept id="1215007762405" name="jetbrains.mps.lang.editor.structure.FloatStyleClassItem" flags="ln" index="3$6MrZ">
         <property id="1215007802031" name="value" index="3$6WeP" />
@@ -26,6 +31,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <reference id="1139959269582" name="actionMap" index="1ERwB7" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -93,16 +99,20 @@
         <node concept="3$7fVu" id="5ujOtIIu97p" role="3F10Kt">
           <property role="3$6WeP" value="-1" />
         </node>
+        <node concept="11LMrY" id="5ujOtII$zEh" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="1kHk_G" id="6PCt4gx9Cd3" role="3EZMnx">
         <property role="ZjSer" value="_" />
         <ref role="1NtTu8" to="mlia:6PCt4gx9Bom" resolve="strong" />
-        <node concept="3$7fVu" id="5ujOtIIu_NH" role="3F10Kt">
-          <property role="3$6WeP" value="-1" />
+        <node concept="11LMrY" id="5ujOtII$zIp" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0A7n" id="6PCt4gx9Cnp" role="3EZMnx">
         <ref role="1NtTu8" to="mlia:6PCt4gx9ePo" resolve="text" />
+        <ref role="1ERwB7" node="5ujOtII$zZx" resolve="MdEmphasizedText_Actions" />
         <node concept="Vb9p2" id="5ujOtIIk8JN" role="3F10Kt">
           <property role="Vbekb" value="hL7GYu6/QUERY" />
           <node concept="17KAyr" id="5ujOtIIk8LR" role="17MNgL">
@@ -130,9 +140,6 @@
             </node>
           </node>
         </node>
-        <node concept="3$7fVu" id="5ujOtIItfB3" role="3F10Kt">
-          <property role="3$6WeP" value="-1" />
-        </node>
       </node>
       <node concept="3F0ifn" id="6PCt4gx9Cuf" role="3EZMnx">
         <property role="3F0ifm" value="_" />
@@ -148,14 +155,14 @@
             </node>
           </node>
         </node>
-        <node concept="3$7fVu" id="5ujOtIIu_TI" role="3F10Kt">
-          <property role="3$6WeP" value="-1" />
+        <node concept="11L4FC" id="5ujOtIIyLuV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0ifn" id="6PCt4gx9Cwx" role="3EZMnx">
         <property role="3F0ifm" value="_" />
-        <node concept="3$7fVu" id="5ujOtIIu_Y5" role="3F10Kt">
-          <property role="3$6WeP" value="-1" />
+        <node concept="11L4FC" id="5ujOtIIykPu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="2iRfu4" id="6PCt4gx9BK9" role="2iSdaV" />
