@@ -27,6 +27,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
+        <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
         <child id="4323500428121274054" name="id" index="2SqHTX" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
@@ -76,6 +77,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="5ujOtIIJsme" role="3EZMnx">
+        <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
         <ref role="PMmxG" node="5ujOtIIIUhb" resolve="MarkdownContainer_Editor_Component" />
       </node>
       <node concept="2iRkQZ" id="6PCt4gxDF40" role="2iSdaV" />
