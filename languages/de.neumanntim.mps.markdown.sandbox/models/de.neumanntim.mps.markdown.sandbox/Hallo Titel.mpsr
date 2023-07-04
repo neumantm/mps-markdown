@@ -8,6 +8,9 @@
         <property id="8004548493574189718" name="text" index="25XmNB" />
         <property id="8004548493574188884" name="headerHashtagCount" index="25Xn4_" />
       </concept>
+      <concept id="7883678983674717518" name="de.neumanntim.mps.markdown.structure.MdTextelement" flags="ng" index="1cj94a">
+        <property id="7883678983674719576" name="text" index="1cj9$s" />
+      </concept>
       <concept id="7883678983674720047" name="de.neumanntim.mps.markdown.structure.MdBasicText" flags="ng" index="1cj9HF" />
       <concept id="2744432054898254745" name="de.neumanntim.mps.markdown.structure.MarkdownContainer" flags="ng" index="3CssRK">
         <child id="2744432054898366121" name="elements" index="3CvVz0" />
@@ -23,18 +26,10 @@
       <property role="25Xn4_" value="1" />
       <property role="25XmNB" value="Hallo Titel" />
     </node>
-    <node concept="25Xn8I" id="6PCt4gxO2bE" role="3CvVz0">
-      <property role="25Xn4_" value="1" />
-      <property role="25XmNB" value="Text" />
-    </node>
-    <node concept="3CvVh9" id="5ujOtIIxS40" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIxS41" role="1cjTnA" />
-    </node>
-    <node concept="3CvVh9" id="5ujOtIIqNIP" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIqNIQ" role="1cjTnA" />
-    </node>
-    <node concept="3CvVh9" id="5ujOtIIdnwY" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIpUkU" role="1cjTnA" />
+    <node concept="3CvVh9" id="5ujOtIIykmc" role="3CvVz0">
+      <node concept="1cj9HF" id="5ujOtIIykmd" role="1cjTnA">
+        <property role="1cj9$s" value="Hallo" />
+      </node>
     </node>
   </node>
 </model>
