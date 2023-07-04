@@ -38,7 +38,7 @@
     <property role="EcuMT" value="2744432054898367008" />
     <property role="TrG5h" value="MdTextline" />
     <property role="3GE5qa" value="textline" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2ombABeqpYR" role="PzmwI">
       <ref role="PrY4T" node="2ombABeqp6I" resolve="MarkdownElement" />
     </node>

@@ -150,7 +150,7 @@
       </node>
     </node>
     <node concept="2sgV4H" id="2ombABepQem" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" />
+      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="2ombABepQen" role="2JcizS">
         <ref role="398BVh" node="2ombABepQel" resolve="mps_home" />
       </node>
@@ -163,7 +163,7 @@
           </node>
         </node>
         <node concept="m$_wl" id="2ombABepQeQ" role="39821P">
-          <ref role="m_rDy" node="2ombABepQe_" resolve="mps-markdown" />
+          <ref role="m_rDy" node="2ombABepQe_" resolve="mps_markdown" />
           <node concept="pUk6x" id="2ombABepQeR" role="pUk7w" />
         </node>
       </node>
@@ -184,7 +184,7 @@
         <ref role="m$f5T" node="2ombABepQe$" resolve="mps-markdown" />
       </node>
       <node concept="m$_yC" id="2ombABepQeF" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" />
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="3_J27D" id="2ombABepQeG" role="m_cZH">
         <node concept="3Mxwew" id="2ombABepQeH" role="3MwsjC">

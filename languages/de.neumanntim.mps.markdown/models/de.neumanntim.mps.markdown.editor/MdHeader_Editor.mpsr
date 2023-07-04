@@ -82,8 +82,8 @@
     <node concept="3EZMnI" id="6PCt4gwPNe_" role="2wV5jI">
       <node concept="2iRfu4" id="6PCt4gwPNeA" role="2iSdaV" />
       <node concept="1HlG4h" id="6PCt4gwRFHY" role="3EZMnx">
-        <ref role="1ERwB7" node="6PCt4gwQ6LC" resolve="DeleteHeaderHashtag" />
-        <ref role="34QXea" node="6PCt4gwRv2d" resolve="HeaderAddDepth_Everywhere" />
+        <ref role="1ERwB7" node="6PCt4gwQ6LC" resolve="DeleteHashtag" />
+        <ref role="34QXea" node="6PCt4gwRv2d" resolve="HeaderAddDepth" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         <node concept="1HfYo3" id="6PCt4gwRFI0" role="1HlULh">
           <node concept="3TQlhw" id="6PCt4gwRFI2" role="1Hhtcw">
