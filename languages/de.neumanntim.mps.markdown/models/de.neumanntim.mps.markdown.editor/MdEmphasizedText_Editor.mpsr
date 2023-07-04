@@ -74,11 +74,6 @@
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
     </language>
-    <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
-      <concept id="7363578995839203705" name="com.mbeddr.mpsutil.grammarcells.structure.FlagCell" flags="sg" stub="1984422498400729024" index="1kHk_G">
-        <property id="7617962380315063287" name="flagText" index="ZjSer" />
-      </concept>
-    </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -103,10 +98,21 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="1kHk_G" id="6PCt4gx9Cd3" role="3EZMnx">
-        <property role="ZjSer" value="_" />
-        <ref role="1NtTu8" to="mlia:6PCt4gx9Bom" resolve="strong" />
-        <node concept="11LMrY" id="5ujOtII$zIp" role="3F10Kt">
+      <node concept="3F0ifn" id="5ujOtIIYqIZ" role="3EZMnx">
+        <property role="3F0ifm" value="_" />
+        <node concept="pkWqt" id="5ujOtIIYqJ0" role="pqm2j">
+          <node concept="3clFbS" id="5ujOtIIYqJ1" role="2VODD2">
+            <node concept="3clFbF" id="5ujOtIIYqJ2" role="3cqZAp">
+              <node concept="2OqwBi" id="5ujOtIIYqJ3" role="3clFbG">
+                <node concept="pncrf" id="5ujOtIIYqJ4" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5ujOtIIYqJ5" role="2OqNvi">
+                  <ref role="3TsBF5" to="mlia:6PCt4gx9Bom" resolve="strong" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="11LMrY" id="5ujOtIIYr2P" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
