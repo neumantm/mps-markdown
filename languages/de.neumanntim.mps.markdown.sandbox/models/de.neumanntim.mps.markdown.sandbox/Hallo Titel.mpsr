@@ -8,17 +8,10 @@
         <property id="8004548493574189718" name="text" index="25XmNB" />
         <property id="8004548493574188884" name="headerHashtagCount" index="25Xn4_" />
       </concept>
-      <concept id="7883678983674717518" name="de.neumanntim.mps.markdown.structure.MdTextelement" flags="ng" index="1cj94a">
-        <property id="7883678983674719576" name="text" index="1cj9$s" />
-      </concept>
-      <concept id="7883678983674720047" name="de.neumanntim.mps.markdown.structure.MdBasicText" flags="ng" index="1cj9HF" />
       <concept id="2744432054898254745" name="de.neumanntim.mps.markdown.structure.MarkdownContainer" flags="ng" index="3CssRK">
         <child id="2744432054898366121" name="elements" index="3CvVz0" />
       </concept>
       <concept id="2744432054898362395" name="de.neumanntim.mps.markdown.structure.MarkdownFile" flags="ng" index="3CvUpM" />
-      <concept id="2744432054898367008" name="de.neumanntim.mps.markdown.structure.MdTextline" flags="ng" index="3CvVh9">
-        <child id="7883678983674913186" name="content" index="1cjTnA" />
-      </concept>
     </language>
   </registry>
   <node concept="3CvUpM" id="6PCt4gxNVg2">
@@ -26,15 +19,13 @@
       <property role="25Xn4_" value="1" />
       <property role="25XmNB" value="Hallo Titel" />
     </node>
-    <node concept="3CvVh9" id="5ujOtIIAAqr" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIAAqs" role="1cjTnA">
-        <property role="1cj9$s" value="as" />
-      </node>
+    <node concept="25Xn8I" id="5ujOtIIH6Hc" role="3CvVz0">
+      <property role="25Xn4_" value="4" />
+      <property role="25XmNB" value="asdasd" />
     </node>
-    <node concept="3CvVh9" id="5ujOtIIEFU5" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIEImN" role="1cjTnA">
-        <property role="1cj9$s" value="asdasdasd" />
-      </node>
+    <node concept="25Xn8I" id="5ujOtIIGc5g" role="3CvVz0">
+      <property role="25Xn4_" value="3" />
+      <property role="25XmNB" value="asdasdasd" />
     </node>
     <node concept="25Xn8I" id="5ujOtIIFcoL" role="3CvVz0">
       <property role="25Xn4_" value="4" />
