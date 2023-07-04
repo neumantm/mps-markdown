@@ -83,7 +83,7 @@
     <property role="3GE5qa" value="textline" />
     <ref role="aqKnT" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
     <node concept="22hDWg" id="5ujOtIID8Qp" role="22hAXT">
-      <property role="TrG5h" value="MakeStrong" />
+      <property role="TrG5h" value="MdEmphasizedText_MakeStrong" />
     </node>
     <node concept="1Qtc8_" id="5ujOtIID92B" role="IW6Ez">
       <node concept="IWgqT" id="5ujOtIID9bj" role="1Qtc8A">

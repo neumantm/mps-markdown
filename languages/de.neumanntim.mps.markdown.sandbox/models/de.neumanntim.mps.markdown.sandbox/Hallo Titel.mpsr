@@ -8,10 +8,20 @@
         <property id="8004548493574189718" name="text" index="25XmNB" />
         <property id="8004548493574188884" name="headerHashtagCount" index="25Xn4_" />
       </concept>
+      <concept id="7883678983674717518" name="de.neumanntim.mps.markdown.structure.MdTextelement" flags="ng" index="1cj94a">
+        <property id="7883678983674719576" name="text" index="1cj9$s" />
+      </concept>
+      <concept id="7883678983674720047" name="de.neumanntim.mps.markdown.structure.MdBasicText" flags="ng" index="1cj9HF" />
+      <concept id="7883678983674817985" name="de.neumanntim.mps.markdown.structure.MdEmphasizedText" flags="ng" index="1cjxA5">
+        <property id="7883678983674820118" name="strong" index="1cjw9i" />
+      </concept>
       <concept id="2744432054898254745" name="de.neumanntim.mps.markdown.structure.MarkdownContainer" flags="ng" index="3CssRK">
         <child id="2744432054898366121" name="elements" index="3CvVz0" />
       </concept>
       <concept id="2744432054898362395" name="de.neumanntim.mps.markdown.structure.MarkdownFile" flags="ng" index="3CvUpM" />
+      <concept id="2744432054898367008" name="de.neumanntim.mps.markdown.structure.MdTextline" flags="ng" index="3CvVh9">
+        <child id="7883678983674913186" name="content" index="1cjTnA" />
+      </concept>
     </language>
   </registry>
   <node concept="3CvUpM" id="6PCt4gxNVg2">
@@ -19,29 +29,72 @@
       <property role="25Xn4_" value="1" />
       <property role="25XmNB" value="Hallo Titel" />
     </node>
-    <node concept="25Xn8I" id="5ujOtIIH6Hc" role="3CvVz0">
-      <property role="25Xn4_" value="4" />
-      <property role="25XmNB" value="asdasd" />
+    <node concept="3CvVh9" id="5ujOtIIH6HD" role="3CvVz0">
+      <node concept="1cj9HF" id="5ujOtIIH6HE" role="1cjTnA">
+        <property role="1cj9$s" value="Das hier ist ein " />
+      </node>
+      <node concept="1cjxA5" id="5ujOtIIH6HJ" role="1cjTnA">
+        <property role="1cj9$s" value="Dokument" />
+      </node>
+      <node concept="1cj9HF" id="5ujOtIIH6HK" role="1cjTnA">
+        <property role="1cj9$s" value=" und ich kann hier " />
+      </node>
+      <node concept="1cjxA5" id="5ujOtIIH6HP" role="1cjTnA">
+        <property role="1cj9$s" value="Fett" />
+        <property role="1cjw9i" value="true" />
+      </node>
+      <node concept="1cj9HF" id="5ujOtIIH6HQ" role="1cjTnA">
+        <property role="1cj9$s" value=" und " />
+      </node>
+      <node concept="1cjxA5" id="5ujOtIIH6HX" role="1cjTnA">
+        <property role="1cj9$s" value="kursiv" />
+      </node>
+      <node concept="1cj9HF" id="5ujOtIIH6HY" role="1cjTnA">
+        <property role="1cj9$s" value=" schreiben." />
+      </node>
     </node>
-    <node concept="25Xn8I" id="5ujOtIIGc5g" role="3CvVz0">
+    <node concept="3CvVh9" id="5ujOtIIH6I6" role="3CvVz0">
+      <node concept="1cj9HF" id="5ujOtIIH6I7" role="1cjTnA">
+        <property role="1cj9$s" value="Außerdem kann ich Untertitel machen" />
+      </node>
+    </node>
+    <node concept="3CvVh9" id="5ujOtIIKLdB" role="3CvVz0">
+      <node concept="1cj9HF" id="5ujOtIIKLdC" role="1cjTnA">
+        <property role="1cj9$s" value="Hallo" />
+      </node>
+    </node>
+    <node concept="25Xn8I" id="5ujOtIIH6Iy" role="3CvVz0">
+      <property role="25Xn4_" value="2" />
+      <property role="25XmNB" value="Untertitel" />
+    </node>
+    <node concept="3CvVh9" id="5ujOtIIH6IL" role="3CvVz0">
+      <node concept="1cj9HF" id="5ujOtIIH6IM" role="1cjTnA">
+        <property role="1cj9$s" value="Auch in mehreren Tiefen" />
+      </node>
+    </node>
+    <node concept="25Xn8I" id="5ujOtIIH6Jj" role="3CvVz0">
       <property role="25Xn4_" value="3" />
-      <property role="25XmNB" value="asdasdasd" />
+      <property role="25XmNB" value="Hallo" />
     </node>
-    <node concept="25Xn8I" id="5ujOtIIFcoL" role="3CvVz0">
-      <property role="25Xn4_" value="4" />
-      <property role="25XmNB" value="asd" />
-    </node>
-    <node concept="25Xn8I" id="5ujOtIIFcpB" role="3CvVz0">
+    <node concept="25Xn8I" id="5ujOtIIKLdk" role="3CvVz0">
       <property role="25Xn4_" value="1" />
-      <property role="25XmNB" value="as" />
+      <property role="25XmNB" value="Hallo" />
     </node>
-    <node concept="25Xn8I" id="5ujOtIIFco1" role="3CvVz0">
-      <property role="25Xn4_" value="1" />
-      <property role="25XmNB" value="asdsad" />
+    <node concept="3CvVh9" id="5ujOtIINAQC" role="3CvVz0">
+      <node concept="1cj9HF" id="5ujOtIINAQD" role="1cjTnA">
+        <property role="1cj9$s" value="Hallo " />
+      </node>
+      <node concept="1cjxA5" id="5ujOtIINAQZ" role="1cjTnA">
+        <property role="1cj9$s" value="asdasd" />
+      </node>
+      <node concept="1cj9HF" id="5ujOtIINAR0" role="1cjTnA">
+        <property role="1cj9$s" value=" asd" />
+      </node>
     </node>
-    <node concept="25Xn8I" id="5ujOtIIFcnN" role="3CvVz0">
-      <property role="25Xn4_" value="1" />
-      <property role="25XmNB" value="as" />
+    <node concept="3CvVh9" id="5ujOtIINAR4" role="3CvVz0">
+      <node concept="1cjxA5" id="5ujOtIINARu" role="1cjTnA">
+        <property role="1cj9$s" value="asd" />
+      </node>
     </node>
   </node>
 </model>
