@@ -31,7 +31,7 @@
     </node>
     <node concept="3CvVh9" id="5ujOtIIH6HD" role="3CvVz0">
       <node concept="1cj9HF" id="5ujOtIIH6HE" role="1cjTnA">
-        <property role="1cj9$s" value="Das hier ist ein " />
+        <property role="1cj9$s" value="Das hier ist ein" />
       </node>
       <node concept="1cjxA5" id="5ujOtIIH6HJ" role="1cjTnA">
         <property role="1cj9$s" value="Dokument" />
@@ -74,6 +74,22 @@
     </node>
     <node concept="25Xn8I" id="5ujOtIIH6Jj" role="3CvVz0">
       <property role="25Xn4_" value="3" />
+      <property role="25XmNB" value="Hallo" />
+    </node>
+    <node concept="3CvVh9" id="7zjXmnz9nfQ" role="3CvVz0">
+      <node concept="1cj9HF" id="7zjXmnz9nfR" role="1cjTnA">
+        <property role="1cj9$s" value="asdasd " />
+      </node>
+      <node concept="1cjxA5" id="7zjXmnz9ngX" role="1cjTnA">
+        <property role="1cj9$s" value="Hallo" />
+        <property role="1cjw9i" value="true" />
+      </node>
+      <node concept="1cj9HF" id="7zjXmnz9nh3" role="1cjTnA">
+        <property role="1cj9$s" value=" asdh Hall0" />
+      </node>
+    </node>
+    <node concept="25Xn8I" id="7zjXmnz9nih" role="3CvVz0">
+      <property role="25Xn4_" value="6" />
       <property role="25XmNB" value="Hallo" />
     </node>
     <node concept="25Xn8I" id="5ujOtIIKLdk" role="3CvVz0">

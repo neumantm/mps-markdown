@@ -147,7 +147,7 @@
           </node>
         </node>
         <node concept="A1WHu" id="5ujOtIIDbr3" role="3vIgyS">
-          <ref role="A1WHt" node="5ujOtIID8Mk" resolve="MakeStrong" />
+          <ref role="A1WHt" node="5ujOtIID8Mk" resolve="MdEmphasizedText_MakeStrong" />
         </node>
       </node>
       <node concept="3F0ifn" id="6PCt4gx9Cuf" role="3EZMnx">

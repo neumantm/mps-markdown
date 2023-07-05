@@ -73,7 +73,7 @@
         </node>
         <node concept="2iRfu4" id="6PCt4gxDFu$" role="2iSdaV" />
         <node concept="2SqB2G" id="6PCt4gxOT2u" role="2SqHTX">
-          <property role="TrG5h" value="noTextGen" />
+          <property role="TrG5h" value="ignoreTextGenGen" />
         </node>
       </node>
       <node concept="PMmxH" id="5ujOtIIJsme" role="3EZMnx">

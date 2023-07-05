@@ -57,7 +57,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="A1WHu" id="6WlRB7ERCtj" role="3vIgyS">
-          <ref role="A1WHt" node="6WlRB7ERcok" resolve="EmptyFile" />
+          <ref role="A1WHt" node="6WlRB7ERcok" resolve="EmptyContainer" />
         </node>
       </node>
     </node>
