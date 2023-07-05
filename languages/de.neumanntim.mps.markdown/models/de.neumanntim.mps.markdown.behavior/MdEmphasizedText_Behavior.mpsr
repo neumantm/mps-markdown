@@ -15,6 +15,7 @@
       <concept id="1225194413805" name="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" flags="in" index="13hLZK" />
       <concept id="1225194472830" name="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" flags="ng" index="13i0hz">
         <property id="1225194472832" name="isVirtual" index="13i0it" />
+        <reference id="1225194472831" name="overriddenMethod" index="13i0hy" />
       </concept>
       <concept id="1225194628440" name="jetbrains.mps.lang.behavior.structure.SuperNodeExpression" flags="nn" index="13iAh5" />
       <concept id="1225194691553" name="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" flags="nn" index="13iPFW" />
@@ -82,17 +83,11 @@
   <node concept="13h7C7" id="6PCt4gxa02f">
     <property role="3GE5qa" value="textline" />
     <ref role="13h7C2" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
-    <node concept="13hLZK" id="6PCt4gxa02g" role="13h7CW">
-      <node concept="3clFbS" id="6PCt4gxa02h" role="2VODD2" />
-    </node>
-    <node concept="13i0hz" id="6PCt4gxa3Lt" role="13h7CS">
-      <property role="TrG5h" value="getString" />
+    <node concept="13i0hz" id="7zjXmnzOLyr" role="13h7CS">
       <property role="13i0it" value="true" />
-      <node concept="3Tm1VV" id="6PCt4gxa3Lu" role="1B3o_S" />
-      <node concept="3uibUv" id="6PCt4gxa3OF" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-      </node>
-      <node concept="3clFbS" id="6PCt4gxa3Lw" role="3clF47">
+      <property role="TrG5h" value="getString" />
+      <ref role="13i0hy" node="6PCt4gx9ZjR" resolve="getString" />
+      <node concept="3clFbS" id="7zjXmnzOLyu" role="3clF47">
         <node concept="3cpWs6" id="6PCt4gxa42S" role="3cqZAp">
           <node concept="3cpWs3" id="6PCt4gxabf0" role="3cqZAk">
             <node concept="Xl_RD" id="6PCt4gxa5E4" role="3uHU7w">
@@ -148,6 +143,13 @@
           </node>
         </node>
       </node>
+      <node concept="3uibUv" id="7zjXmnzOLLY" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="3Tm1VV" id="7zjXmnzOLLZ" role="1B3o_S" />
+    </node>
+    <node concept="13hLZK" id="6PCt4gxa02g" role="13h7CW">
+      <node concept="3clFbS" id="6PCt4gxa02h" role="2VODD2" />
     </node>
   </node>
 </model>

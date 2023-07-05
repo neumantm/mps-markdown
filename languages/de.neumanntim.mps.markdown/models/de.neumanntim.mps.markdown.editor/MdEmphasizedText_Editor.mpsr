@@ -91,9 +91,7 @@
     <node concept="3EZMnI" id="6PCt4gx9BK6" role="2wV5jI">
       <node concept="3F0ifn" id="6PCt4gx9BL1" role="3EZMnx">
         <property role="3F0ifm" value="_" />
-        <node concept="11L4FC" id="5ujOtIIWF0S" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+        <ref role="1ERwB7" node="7zjXmnzDlvX" resolve="MdEmphasizedText_Actions_FromLeftUnderscore" />
         <node concept="11LMrY" id="5ujOtII$zEh" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -118,7 +116,7 @@
       </node>
       <node concept="3F0A7n" id="6PCt4gx9Cnp" role="3EZMnx">
         <ref role="1NtTu8" to="mlia:6PCt4gx9ePo" resolve="text" />
-        <ref role="1ERwB7" node="5ujOtII$zZx" resolve="MdEmphasizedText_Actions" />
+        <ref role="1ERwB7" node="5ujOtII$zZx" resolve="MdEmphasizedText_Actions_FromText" />
         <node concept="Vb9p2" id="5ujOtIIk8JN" role="3F10Kt">
           <property role="Vbekb" value="hL7GYu6/QUERY" />
           <node concept="17KAyr" id="5ujOtIIk8LR" role="17MNgL">
@@ -170,6 +168,7 @@
       </node>
       <node concept="3F0ifn" id="6PCt4gx9Cwx" role="3EZMnx">
         <property role="3F0ifm" value="_" />
+        <ref role="1ERwB7" node="7zjXmnzDnij" resolve="MdEmphasizedText_Actions_FromRightUnderscore" />
         <node concept="11L4FC" id="5ujOtIIykPu" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>

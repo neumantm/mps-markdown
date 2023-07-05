@@ -182,9 +182,6 @@
       </node>
     </node>
     <node concept="3CvVh9" id="5ujOtIIZv4B" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIZv4C" role="1cjTnA">
-        <property role="1cj9$s" value="Hallo wie gehts " />
-      </node>
       <node concept="1cjxA5" id="5ujOtIIZv5_" role="1cjTnA">
         <property role="1cj9$s" value="asd" />
       </node>
@@ -194,16 +191,8 @@
       <property role="25XmNB" value="asd" />
     </node>
     <node concept="3CvVh9" id="5ujOtIIZv7I" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIZv7J" role="1cjTnA">
-        <property role="1cj9$s" value="FOOOO" />
-      </node>
       <node concept="1cjxA5" id="5ujOtIIZvf2" role="1cjTnA">
         <property role="1cj9$s" value="sad" />
-      </node>
-    </node>
-    <node concept="3CvVh9" id="5ujOtIIYp0y" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIYp0z" role="1cjTnA">
-        <property role="1cj9$s" value="asdsad" />
       </node>
     </node>
     <node concept="3CvVh9" id="5ujOtIIZvf5" role="3CvVz0">
@@ -215,14 +204,7 @@
       <node concept="1cjxA5" id="5ujOtIIYp26" role="1cjTnA">
         <property role="1cj9$s" value="asd" />
       </node>
-      <node concept="1cj9HF" id="5ujOtIIYp2a" role="1cjTnA">
-        <property role="1cj9$s" value=" lofl Rofl" />
-      </node>
-    </node>
-    <node concept="3CvVh9" id="5ujOtIIYp2d" role="3CvVz0">
-      <node concept="1cj9HF" id="5ujOtIIYp2e" role="1cjTnA">
-        <property role="1cj9$s" value="Ja lol WT" />
-      </node>
+      <node concept="1cj9HF" id="7zjXmnzdk6H" role="1cjTnA" />
     </node>
     <node concept="25Xn8I" id="5ujOtIIYp8f" role="3CvVz0">
       <property role="25Xn4_" value="1" />
@@ -230,7 +212,7 @@
     </node>
     <node concept="25Xn8I" id="5ujOtIIYp9Y" role="3CvVz0">
       <property role="25Xn4_" value="4" />
-      <property role="25XmNB" value="asd Halollololol" />
+      <property role="25XmNB" value="asd Halollolo" />
     </node>
   </node>
 </model>
