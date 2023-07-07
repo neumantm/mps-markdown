@@ -27,6 +27,8 @@
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1220974635399" name="jetbrains.mps.lang.editor.structure.QueryFunction_FontStyle" flags="in" index="17KAyr" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
+        <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -95,6 +97,9 @@
         <node concept="11LMrY" id="5ujOtII$zEh" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="A1WHu" id="7zjXmnzYEvI" role="3vIgyS">
+          <ref role="A1WHt" node="7zjXmnzYj$$" resolve="ContinueWritingLeftForNewBasicText" />
+        </node>
       </node>
       <node concept="3F0ifn" id="5ujOtIIYqIZ" role="3EZMnx">
         <property role="3F0ifm" value="_" />
@@ -115,6 +120,8 @@
         </node>
       </node>
       <node concept="3F0A7n" id="6PCt4gx9Cnp" role="3EZMnx">
+        <property role="39s7Ar" value="true" />
+        <property role="1O74Pk" value="true" />
         <ref role="1NtTu8" to="mlia:6PCt4gx9ePo" resolve="text" />
         <ref role="1ERwB7" node="5ujOtII$zZx" resolve="MdEmphasizedText_Actions_FromText" />
         <node concept="Vb9p2" id="5ujOtIIk8JN" role="3F10Kt">
