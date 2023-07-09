@@ -43,6 +43,9 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
@@ -71,6 +74,14 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
   </registry>
@@ -130,9 +141,56 @@
             <node concept="2OqwBi" id="5ujOtIIdTOD" role="3clFbw">
               <node concept="1Wqviy" id="5ujOtIIdTjW" role="2Oq$k0" />
               <node concept="liA8E" id="5ujOtIIdUmL" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
                 <node concept="Xl_RD" id="5ujOtIIdUqz" role="37wK5m">
-                  <property role="Xl_RC" value="_" />
+                  <property role="Xl_RC" value=".*(([^ ]_)|(_[^ ])).*" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="14tnK5ouhcf" role="3cqZAp">
+            <node concept="3clFbS" id="14tnK5ouhch" role="3clFbx">
+              <node concept="3SKdUt" id="14tnK5oujDc" role="3cqZAp">
+                <node concept="1PaTwC" id="14tnK5oujDd" role="1aUNEU">
+                  <node concept="3oM_SD" id="14tnK5oujH3" role="1PaTwD">
+                    <property role="3oM_SC" value="not" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5oujHW" role="1PaTwD">
+                    <property role="3oM_SC" value="by" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5oujJg" role="1PaTwD">
+                    <property role="3oM_SC" value="spec" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5oujPo" role="1PaTwD">
+                    <property role="3oM_SC" value="but" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5oujSN" role="1PaTwD">
+                    <property role="3oM_SC" value="to" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5oujTK" role="1PaTwD">
+                    <property role="3oM_SC" value="make" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5oujVa" role="1PaTwD">
+                    <property role="3oM_SC" value="right" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5oujXq" role="1PaTwD">
+                    <property role="3oM_SC" value="transform" />
+                  </node>
+                  <node concept="3oM_SD" id="14tnK5ouk1L" role="1PaTwD">
+                    <property role="3oM_SC" value="work" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="14tnK5oukMl" role="3cqZAp">
+                <node concept="3clFbT" id="14tnK5oukYK" role="3cqZAk" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="14tnK5ouiuQ" role="3clFbw">
+              <node concept="1Wqviy" id="14tnK5ouhWh" role="2Oq$k0" />
+              <node concept="liA8E" id="14tnK5ouiYR" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.matches(java.lang.String)" resolve="matches" />
+                <node concept="Xl_RD" id="14tnK5ouj2O" role="37wK5m">
+                  <property role="Xl_RC" value=".*_$" />
                 </node>
               </node>
             </node>

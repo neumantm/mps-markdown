@@ -8,7 +8,6 @@
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
-      <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
       <concept id="1177327274449" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_pattern" flags="nn" index="ub8z3" />
       <concept id="6718020819487620876" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Default" flags="ng" index="A1WHr" />
       <concept id="3547227755871693971" name="jetbrains.mps.lang.editor.structure.PredefinedSelector" flags="ng" index="2B6iha">
@@ -19,7 +18,6 @@
       </concept>
       <concept id="1638911550608610798" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Execute" flags="ig" index="IWg2L" />
       <concept id="1638911550608610278" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_Action" flags="ng" index="IWgqT">
-        <child id="6202297022026447496" name="canExecuteFunction" index="2jiSrf" />
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
@@ -88,9 +86,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -141,8 +136,8 @@
       <node concept="IWgqT" id="5ujOtIIdZmS" role="1Qtc8A">
         <node concept="1hCUdq" id="5ujOtIIdZmT" role="1hCUd6">
           <node concept="3clFbS" id="5ujOtIIdZmU" role="2VODD2">
-            <node concept="3cpWs6" id="5ujOtIIj78T" role="3cqZAp">
-              <node concept="Xl_RD" id="5ujOtIIj79U" role="3cqZAk">
+            <node concept="3cpWs6" id="14tnK5ot_yA" role="3cqZAp">
+              <node concept="Xl_RD" id="14tnK5ot_Dw" role="3cqZAk">
                 <property role="Xl_RC" value="_" />
               </node>
             </node>
@@ -221,15 +216,6 @@
                 <node concept="Xl_RD" id="5ujOtIIdZAM" role="3clFbG">
                   <property role="Xl_RC" value="Add emphasized text" />
                 </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="27VH4U" id="5ujOtIIACr6" role="2jiSrf">
-          <node concept="3clFbS" id="5ujOtIIACr7" role="2VODD2">
-            <node concept="3cpWs6" id="5ujOtIIACuG" role="3cqZAp">
-              <node concept="3clFbT" id="5ujOtIIACwy" role="3cqZAk">
-                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
