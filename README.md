@@ -2,6 +2,18 @@
 
 Implementation of the markdown language for JetBrains MPS
 
+## Goal
+
+- All generated code shall be correct according to the [commonmark][] specification
+- The editor shall be convenient and intuitive to use
+- Eventually as much of the [commonmark][] specification as possible shall be implemented
+    - Ideally any valid [commonmark][] document shall be able to be produced from this language via the textgen
+    - However, the usability of the editor is more important than completeness in regards to the specification
+- The language shall be extensible wherever possible
+- Any extensions beyond the [commonmark][] specification not shall be implemented in this language but rather as language extensions
+
+[commonmark]: https://commonmark.org/
+
 ## State
 
 This repository/language is in a WIP / development state.
