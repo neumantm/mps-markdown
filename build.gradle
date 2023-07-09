@@ -20,7 +20,7 @@ ext.mpsPlugins = []
 // add plugins from custom URLs (which are not available in JetBrains' plugin repository)
 ext.customMpsPlugins = [
         "de.itemis.mps.extensions": "https://artifacts.itemis.cloud/repository/maven-mps/de/itemis/mps/extensions/2022.2.2595.e45b182/extensions-2022.2.2595.e45b182.zip",
-        "TextGenGen (Fum)": "https://github.com/Fumapps/textGenGen/releases/download/2022.2-beta1/TextGenGen.zip"
+        "TextGenGen (Fum)": "https://github.com/Fumapps/textGenGen/releases/download/2022.2-beta2/TextGenGen.zip"
 ]
 
 apply from: 'gradle/init-gradle-scripts.gradle'

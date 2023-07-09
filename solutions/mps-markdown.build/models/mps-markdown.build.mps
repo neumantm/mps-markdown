@@ -101,6 +101,10 @@
       <concept id="868032131020265945" name="jetbrains.mps.build.mps.structure.BuildMPSPlugin" flags="ng" index="3b7kt6" />
       <concept id="5253498789149381388" name="jetbrains.mps.build.mps.structure.BuildMps_Module" flags="ng" index="3bQrTs">
         <child id="5253498789149547825" name="sources" index="3bR31x" />
+        <child id="5253498789149547704" name="dependencies" index="3bR37C" />
+      </concept>
+      <concept id="5253498789149585690" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleDependencyOnModule" flags="ng" index="3bR9La">
+        <reference id="5253498789149547705" name="module" index="3bR37D" />
       </concept>
       <concept id="5507251971038816436" name="jetbrains.mps.build.mps.structure.BuildMps_Generator" flags="ng" index="1yeLz9" />
       <concept id="4278635856200817744" name="jetbrains.mps.build.mps.structure.BuildMps_ModuleModelRoot" flags="ng" index="1BupzO">
@@ -117,6 +121,9 @@
         <property id="8369506495128725901" name="compact" index="BnDLt" />
         <property id="322010710375892619" name="uuid" index="3LESm3" />
         <child id="322010710375956261" name="path" index="3LF7KH" />
+      </concept>
+      <concept id="7259033139236285166" name="jetbrains.mps.build.mps.structure.BuildMps_ExtractedModuleDependency" flags="nn" index="1SiIV0">
+        <child id="7259033139236285167" name="dependency" index="1SiIV1" />
       </concept>
     </language>
   </registry>
@@ -150,7 +157,7 @@
       </node>
     </node>
     <node concept="2sgV4H" id="2ombABepQem" role="1l3spa">
-      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" />
+      <ref role="1l3spb" to="ffeo:3IKDaVZmzS6" resolve="mps" />
       <node concept="398BVA" id="2ombABepQen" role="2JcizS">
         <ref role="398BVh" node="2ombABepQel" resolve="mps_home" />
       </node>
@@ -163,7 +170,7 @@
           </node>
         </node>
         <node concept="m$_wl" id="2ombABepQeQ" role="39821P">
-          <ref role="m_rDy" node="2ombABepQe_" resolve="mps-markdown" />
+          <ref role="m_rDy" node="2ombABepQe_" resolve="mps_markdown" />
           <node concept="pUk6x" id="2ombABepQeR" role="pUk7w" />
         </node>
       </node>
@@ -184,7 +191,7 @@
         <ref role="m$f5T" node="2ombABepQe$" resolve="mps-markdown" />
       </node>
       <node concept="m$_yC" id="2ombABepQeF" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" />
+        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
       <node concept="3_J27D" id="2ombABepQeG" role="m_cZH">
         <node concept="3Mxwew" id="2ombABepQeH" role="3MwsjC">
@@ -219,19 +226,20 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="2ombABepQeX" role="1HemKq">
-            <node concept="55IIr" id="2ombABepQeS" role="3LXTmr">
-              <node concept="2Ry0Ak" id="2ombABepQeT" role="iGT6I">
+          <node concept="3LXTmp" id="29jyUzprpYQ" role="1HemKq">
+            <node concept="398BVA" id="29jyUzprpYE" role="3LXTmr">
+              <ref role="398BVh" node="2ombABepQfr" resolve="project_home" />
+              <node concept="2Ry0Ak" id="29jyUzprpYF" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="2ombABepQeU" role="2Ry0An">
+                <node concept="2Ry0Ak" id="29jyUzprpYG" role="2Ry0An">
                   <property role="2Ry0Am" value="de.neumanntim.mps.markdown" />
-                  <node concept="2Ry0Ak" id="2ombABepQeV" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="29jyUzprpYH" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="2ombABepQeY" role="3LXTna">
+            <node concept="3qWCbU" id="29jyUzprpYR" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
@@ -243,25 +251,36 @@
             <property role="3ZfqAx" value="generator/templates" />
             <property role="1Hdu6h" value="true" />
             <property role="1HemKv" value="true" />
-            <node concept="3LXTmp" id="2ombABepQf6" role="1HemKq">
-              <node concept="55IIr" id="2ombABepQf0" role="3LXTmr">
-                <node concept="2Ry0Ak" id="2ombABepQf1" role="iGT6I">
+            <node concept="3LXTmp" id="29jyUzprpZ7" role="1HemKq">
+              <node concept="398BVA" id="29jyUzprpYS" role="3LXTmr">
+                <ref role="398BVh" node="2ombABepQfr" resolve="project_home" />
+                <node concept="2Ry0Ak" id="29jyUzprpYT" role="iGT6I">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="2ombABepQf2" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="29jyUzprpYU" role="2Ry0An">
                     <property role="2Ry0Am" value="de.neumanntim.mps.markdown" />
-                    <node concept="2Ry0Ak" id="2ombABepQf3" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="29jyUzprpYV" role="2Ry0An">
                       <property role="2Ry0Am" value="generator" />
-                      <node concept="2Ry0Ak" id="2ombABepQf4" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="29jyUzprpYW" role="2Ry0An">
                         <property role="2Ry0Am" value="templates" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3qWCbU" id="2ombABepQf7" role="3LXTna">
+              <node concept="3qWCbU" id="29jyUzprpZ8" role="3LXTna">
                 <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="29jyUzprpYA" role="3bR37C">
+          <node concept="3bR9La" id="29jyUzprpYB" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="29jyUzprpYC" role="3bR37C">
+          <node concept="3bR9La" id="29jyUzprpYD" role="1SiIV1">
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
           </node>
         </node>
       </node>
@@ -284,19 +303,20 @@
           <property role="3ZfqAx" value="models" />
           <property role="1Hdu6h" value="true" />
           <property role="1HemKv" value="true" />
-          <node concept="3LXTmp" id="2ombABepQfd" role="1HemKq">
-            <node concept="55IIr" id="2ombABepQf8" role="3LXTmr">
-              <node concept="2Ry0Ak" id="2ombABepQf9" role="iGT6I">
+          <node concept="3LXTmp" id="29jyUzprpZl" role="1HemKq">
+            <node concept="398BVA" id="29jyUzprpZ9" role="3LXTmr">
+              <ref role="398BVh" node="2ombABepQfr" resolve="project_home" />
+              <node concept="2Ry0Ak" id="29jyUzprpZa" role="iGT6I">
                 <property role="2Ry0Am" value="languages" />
-                <node concept="2Ry0Ak" id="2ombABepQfa" role="2Ry0An">
+                <node concept="2Ry0Ak" id="29jyUzprpZb" role="2Ry0An">
                   <property role="2Ry0Am" value="de.neumanntim.mps.markdown.sandbox" />
-                  <node concept="2Ry0Ak" id="2ombABepQfb" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="29jyUzprpZc" role="2Ry0An">
                     <property role="2Ry0Am" value="models" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3qWCbU" id="2ombABepQfe" role="3LXTna">
+            <node concept="3qWCbU" id="29jyUzprpZm" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
