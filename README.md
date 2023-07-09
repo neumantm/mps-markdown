@@ -4,10 +4,11 @@ Implementation of the markdown language for JetBrains MPS
 
 ## Goal
 
-- All generated code shall be correct according to the [commonmark][] specification
+- Represent markdown as close as possible to the [commonmark][] specification
+- The texgen shall generate markdown in a way, such that the nodes of the model are transformed into text conforming to the definition of the corresponding (to the node) syntax element according to the [commonmark][] specification
 - The editor shall be convenient and intuitive to use
 - Eventually as much of the [commonmark][] specification as possible shall be implemented
-    - Ideally any valid [commonmark][] document shall be able to be produced from this language via the textgen
+    - Ideally any [commonmark][] document shall be able to be produced from this language via the textgen
     - However, the usability of the editor is more important than completeness in regards to the specification
 - The language shall be extensible wherever possible
 - Any extensions beyond the [commonmark][] specification not shall be implemented in this language but rather as language extensions
