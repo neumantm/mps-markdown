@@ -95,8 +95,8 @@
   </registry>
   <node concept="325Ffw" id="6PCt4gwT1q5">
     <property role="TrG5h" value="AddHashtagOnLeft" />
-    <property role="3GE5qa" value="header" />
-    <ref role="1chiOs" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+    <property role="3GE5qa" value="heading" />
+    <ref role="1chiOs" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
     <node concept="2PxR9H" id="6PCt4gwT1$E" role="2QnnpI">
       <node concept="2Py5lD" id="6PCt4gwT1$F" role="2PyaAO">
         <property role="2PWKIS" value="#" />

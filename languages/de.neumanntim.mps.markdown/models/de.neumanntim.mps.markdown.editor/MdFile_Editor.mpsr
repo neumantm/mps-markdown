@@ -52,7 +52,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="2ombABeqql0">
-    <ref role="1XX52x" to="mlia:2ombABeqowr" resolve="MarkdownFile" />
+    <ref role="1XX52x" to="mlia:2ombABeqowr" resolve="MdFile" />
     <node concept="3EZMnI" id="6PCt4gxDF3Z" role="2wV5jI">
       <node concept="3EZMnI" id="6PCt4gxDFuv" role="3EZMnx">
         <ref role="1k5W1q" to="tpen:hshO_Yc" resolve="Comment" />

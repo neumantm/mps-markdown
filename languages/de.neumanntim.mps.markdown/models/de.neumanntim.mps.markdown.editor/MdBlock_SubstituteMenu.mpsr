@@ -19,7 +19,7 @@
     </language>
   </registry>
   <node concept="22mcaB" id="6WlRB7ER8R1">
-    <ref role="aqKnT" to="mlia:2ombABeqp6I" resolve="MarkdownElement" />
+    <ref role="aqKnT" to="mlia:2ombABeqp6I" resolve="MdBlock" />
     <node concept="22hDWj" id="6WlRB7ER8T4" role="22hAXT" />
     <node concept="2VfDsV" id="6WlRB7ER8YM" role="3ft7WO" />
   </node>

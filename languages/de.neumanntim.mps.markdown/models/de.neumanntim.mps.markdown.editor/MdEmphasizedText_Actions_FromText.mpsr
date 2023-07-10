@@ -106,7 +106,7 @@
     </language>
   </registry>
   <node concept="1h_SRR" id="5ujOtII$zZx">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <property role="TrG5h" value="MdEmphasizedText_Actions_FromText" />
     <ref role="1h_SK9" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
     <node concept="1hA7zw" id="5ujOtII$$3A" role="1h_SK8">
@@ -166,7 +166,7 @@
                         <node concept="2OqwBi" id="7zjXmnzZQf2" role="37wK5m">
                           <node concept="0IXxy" id="7zjXmnzZQf3" role="2Oq$k0" />
                           <node concept="3TrcHB" id="7zjXmnzZQf4" role="2OqNvi">
-                            <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                            <ref role="3TsBF5" to="mlia:29jyUzpsI7M" resolve="text" />
                           </node>
                         </node>
                         <node concept="1Q80Hx" id="7zjXmnzZQf5" role="37wK5m" />
@@ -182,7 +182,7 @@
                   <node concept="2OqwBi" id="7zjXmn$0XI4" role="2Oq$k0">
                     <node concept="0IXxy" id="7zjXmn$0XmG" role="2Oq$k0" />
                     <node concept="3TrcHB" id="7zjXmn$0Y1R" role="2OqNvi">
-                      <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                      <ref role="3TsBF5" to="mlia:29jyUzpsI7M" resolve="text" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7zjXmn$0Z8y" role="2OqNvi">

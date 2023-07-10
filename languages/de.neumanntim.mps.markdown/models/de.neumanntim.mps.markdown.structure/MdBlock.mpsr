@@ -17,7 +17,7 @@
   </registry>
   <node concept="PlHQZ" id="2ombABeqp6I">
     <property role="EcuMT" value="2744432054898364846" />
-    <property role="TrG5h" value="MarkdownElement" />
+    <property role="TrG5h" value="MdBlock" />
   </node>
 </model>
 

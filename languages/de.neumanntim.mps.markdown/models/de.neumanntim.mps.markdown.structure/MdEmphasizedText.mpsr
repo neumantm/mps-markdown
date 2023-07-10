@@ -31,11 +31,16 @@
   </registry>
   <node concept="1TIwiD" id="6PCt4gx9AR1">
     <property role="EcuMT" value="7883678983674817985" />
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <property role="TrG5h" value="MdEmphasizedText" />
     <property role="34LRSv" value="_" />
     <property role="R4oN_" value="Emphasized Text" />
-    <ref role="1TJDcQ" node="6PCt4gx9eEN" resolve="MdTextelement" />
+    <ref role="1TJDcQ" node="6PCt4gx9eEN" resolve="MdInline" />
+    <node concept="1TJgyi" id="29jyUzpsI7M" role="1TKVEl">
+      <property role="IQ2nx" value="2473474177675485682" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyi" id="6PCt4gx9Bom" role="1TKVEl">
       <property role="IQ2nx" value="7883678983674820118" />
       <property role="TrG5h" value="strong" />

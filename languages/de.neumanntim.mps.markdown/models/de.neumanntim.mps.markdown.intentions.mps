@@ -66,7 +66,7 @@
     </language>
   </registry>
   <node concept="2S6QgY" id="5ujOtIIl4kE">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <property role="TrG5h" value="MakeStrong" />
     <ref role="2ZfgGC" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
     <node concept="2S6ZIM" id="5ujOtIIl4kF" role="2ZfVej">
@@ -111,7 +111,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="5ujOtIIl8eL">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <property role="TrG5h" value="MakeWeak" />
     <ref role="2ZfgGC" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
     <node concept="2S6ZIM" id="5ujOtIIl8eM" role="2ZfVej">

@@ -113,8 +113,8 @@
   </registry>
   <node concept="1h_SRR" id="6PCt4gwQ6LC">
     <property role="TrG5h" value="DeleteHashtag" />
-    <property role="3GE5qa" value="header" />
-    <ref role="1h_SK9" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+    <property role="3GE5qa" value="heading" />
+    <ref role="1h_SK9" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
     <node concept="1hA7zw" id="6PCt4gwQ756" role="1h_SK8">
       <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
       <property role="1hHO97" value="&quot;Remove header hashtag and convert to TextLine if none remains&quot;" />
@@ -150,12 +150,12 @@
             <node concept="3cpWsn" id="6PCt4gwQa_q" role="3cpWs9">
               <property role="TrG5h" value="newNode" />
               <node concept="3Tqbb2" id="6PCt4gwQawI" role="1tU5fm">
-                <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
               </node>
               <node concept="2ShNRf" id="6PCt4gwQa_r" role="33vP2m">
                 <node concept="3zrR0B" id="6PCt4gwQa_s" role="2ShVmc">
                   <node concept="3Tqbb2" id="6PCt4gwQa_t" role="3zrR0E">
-                    <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                    <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
                   </node>
                 </node>
               </node>
@@ -183,7 +183,7 @@
                   <ref role="3cqZAo" node="6PCt4gxaFt_" resolve="lineContent" />
                 </node>
                 <node concept="3TrcHB" id="6PCt4gxaFtJ" role="2OqNvi">
-                  <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                  <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                 </node>
               </node>
               <node concept="2OqwBi" id="6PCt4gxaGe5" role="37vLTx">

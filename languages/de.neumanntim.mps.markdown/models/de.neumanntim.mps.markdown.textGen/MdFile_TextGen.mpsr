@@ -111,7 +111,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="7zjXmnzayst">
-    <ref role="WuzLi" to="mlia:2ombABeqowr" resolve="MarkdownFile" />
+    <ref role="WuzLi" to="mlia:2ombABeqowr" resolve="MdFile" />
     <node concept="11bSqf" id="7zjXmnzaysu" role="11c4hB">
       <node concept="3clFbS" id="7zjXmnzaysv" role="2VODD2">
         <node concept="3SKdUt" id="7zjXmnzaysy" role="3cqZAp">

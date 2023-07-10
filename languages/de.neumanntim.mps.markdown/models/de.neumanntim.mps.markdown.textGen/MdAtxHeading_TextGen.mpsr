@@ -99,8 +99,8 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="7zjXmnz8VQ7">
-    <property role="3GE5qa" value="header" />
-    <ref role="WuzLi" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+    <property role="3GE5qa" value="heading" />
+    <ref role="WuzLi" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
     <node concept="11bSqf" id="7zjXmnz8VQ8" role="11c4hB">
       <node concept="3clFbS" id="7zjXmnz8VQ9" role="2VODD2">
         <node concept="3SKdUt" id="7zjXmnz8VQm" role="3cqZAp">

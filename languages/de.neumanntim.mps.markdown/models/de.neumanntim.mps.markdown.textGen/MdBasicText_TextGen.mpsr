@@ -43,7 +43,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="7zjXmnz8VM3">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <ref role="WuzLi" to="mlia:6PCt4gx9eWJ" resolve="MdBasicText" />
     <node concept="11bSqf" id="7zjXmnz8VM4" role="11c4hB">
       <node concept="3clFbS" id="7zjXmnz8VM5" role="2VODD2">
@@ -51,7 +51,7 @@
           <node concept="l9hG8" id="7zjXmnz8VMa" role="lcghm">
             <node concept="2OqwBi" id="7zjXmnz8VM9" role="lb14g">
               <node concept="3TrcHB" id="7zjXmnz8VM8" role="2OqNvi">
-                <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
               </node>
               <node concept="117lpO" id="7zjXmnz8VM7" role="2Oq$k0" />
             </node>

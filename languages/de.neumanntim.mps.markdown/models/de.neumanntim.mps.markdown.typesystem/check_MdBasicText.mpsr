@@ -84,7 +84,7 @@
   </registry>
   <node concept="18kY7G" id="7zjXmnzZ0Ky">
     <property role="TrG5h" value="check_MdBasicText" />
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <node concept="3clFbS" id="7zjXmnzZ0Kz" role="18ibNy">
       <node concept="3clFbJ" id="7zjXmnzZ1ya" role="3cqZAp">
         <node concept="3clFbS" id="7zjXmnzZ1yc" role="3clFbx">

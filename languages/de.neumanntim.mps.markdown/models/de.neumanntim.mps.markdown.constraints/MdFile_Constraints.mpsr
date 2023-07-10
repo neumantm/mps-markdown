@@ -65,7 +65,7 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="6PCt4gxDGcO">
-    <ref role="1M2myG" to="mlia:2ombABeqowr" resolve="MarkdownFile" />
+    <ref role="1M2myG" to="mlia:2ombABeqowr" resolve="MdFile" />
     <node concept="EnEH3" id="6PCt4gxDGet" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="Eqf_E" id="6PCt4gxDGj7" role="EtsB7">
@@ -98,7 +98,7 @@
                   <node concept="1PxgMI" id="6PCt4gxDZpE" role="2Oq$k0">
                     <property role="1BlNFB" value="true" />
                     <node concept="chp4Y" id="6PCt4gxDZKw" role="3oSUPX">
-                      <ref role="cht4Q" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+                      <ref role="cht4Q" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
                     </node>
                     <node concept="2OqwBi" id="6PCt4gxDUkh" role="1m5AlR">
                       <node concept="2OqwBi" id="6PCt4gxDPpZ" role="2Oq$k0">
@@ -128,7 +128,7 @@
               </node>
               <node concept="1mIQ4w" id="6PCt4gxDMWw" role="2OqNvi">
                 <node concept="chp4Y" id="6PCt4gxDN49" role="cj9EA">
-                  <ref role="cht4Q" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+                  <ref role="cht4Q" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
                 </node>
               </node>
             </node>
