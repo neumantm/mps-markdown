@@ -20,10 +20,35 @@ Implementation of the markdown language for JetBrains MPS
 This repository/language is in a WIP / development state.
 Nothing is stable, everything may change.
 
+## Usage
+
+### Editor
+
+Most parts of the editor should be inuitive and self-explanatory.
+Here are some notes on the less obvious parts.
+
+#### Lists
+
+- To quickly indent a list item, press `Tab` with the cursor on the list marker (the `-`)
+    - Only possible if there is a list item on the current indentation somehwere earlier (above) in the list
+- To quickly unindent a list item, press `Tab` with the cursor on the list marker (the `-`)
+    - Only possible if the list item is indented
+- To add a new line within a list item do the `INSERT BEFORE` action (usually Shift-Enter)
+- To create a new normal line after a list press enter on an empty list item
+
 ## Development Notes
 
 ### Re-Generating TextGen
 
 - Right-click the language and select Generate TextGen
-- In `Markdownfile_TextGen` set extension to `.md`
-- In `MdTextLine_TextGen` remove section creating whitespace between elements
+- In `MdFile_TextGen` set extension to `.md`
+- In `MdLine_TextGen` remove section creating whitespace between elements
+- In `MdBulletListItem` add `boolean first = true;` before the loop and
+  ```
+  if (first) {
+    first = false;
+  } else {
+    append indent;
+  }
+  ```
+  before the `append ${elem};`

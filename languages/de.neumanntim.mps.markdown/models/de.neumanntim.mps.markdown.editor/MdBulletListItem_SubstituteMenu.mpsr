@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:6f7091ee-959a-4926-87bf-1fe4d69c6a3c(de.neumanntim.mps.markdown.editor)" content="root">
+  <persistence version="9" />
+  <imports>
+    <import index="mlia" ref="r:82b7010e-7356-42d9-a529-d70891b7b9bd(de.neumanntim.mps.markdown.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="5991739802479784073" name="jetbrains.mps.lang.editor.structure.MenuTypeDefault" flags="ng" index="22hDWj" />
+      <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
+      <concept id="1630016958697344083" name="jetbrains.mps.lang.editor.structure.IMenu_Concept" flags="ng" index="2ZABuq">
+        <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
+        <child id="5991739802479788259" name="type" index="22hAXT" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="22mcaB" id="29jyUzq4wzk">
+    <property role="3GE5qa" value="list.bullet" />
+    <ref role="aqKnT" to="mlia:29jyUzp_7Nr" resolve="MdBulletListItem" />
+    <node concept="22hDWj" id="29jyUzq4wCd" role="22hAXT" />
+  </node>
+</model>
+
