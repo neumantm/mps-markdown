@@ -43,8 +43,8 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="6PCt4gwRJix">
-    <property role="3GE5qa" value="header" />
-    <ref role="1M2myG" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+    <property role="3GE5qa" value="heading" />
+    <ref role="1M2myG" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
     <node concept="EnEH3" id="6PCt4gwRJjK" role="1MhHOB">
       <ref role="EomxK" to="mlia:6WlRB7ESaXk" resolve="headerHashtagCount" />
       <node concept="QB0g5" id="6PCt4gwRJou" role="QCWH9">

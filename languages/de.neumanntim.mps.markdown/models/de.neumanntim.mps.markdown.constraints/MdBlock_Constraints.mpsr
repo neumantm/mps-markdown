@@ -13,8 +13,8 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="2ombABeqqQd">
-    <ref role="1M2myG" to="mlia:2ombABeqp6I" resolve="MarkdownElement" />
-    <ref role="1MND4H" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+    <ref role="1M2myG" to="mlia:2ombABeqp6I" resolve="MdBlock" />
+    <ref role="1MND4H" to="mlia:2ombABeqpCw" resolve="MdLine" />
   </node>
 </model>
 

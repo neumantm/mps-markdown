@@ -101,7 +101,7 @@
   </registry>
   <node concept="3ICUPy" id="5ujOtIINATX">
     <property role="3GE5qa" value="" />
-    <ref role="aqKnT" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+    <ref role="aqKnT" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
     <node concept="22hDWg" id="5ujOtIIOvQP" role="22hAXT">
       <property role="TrG5h" value="ContinueWritingRightForNewBasicText" />
     </node>
@@ -144,7 +144,7 @@
                     <ref role="3cqZAo" node="5ujOtIIPVXS" resolve="newNode" />
                   </node>
                   <node concept="3TrcHB" id="5ujOtIIPWKh" role="2OqNvi">
-                    <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                    <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                   </node>
                 </node>
               </node>

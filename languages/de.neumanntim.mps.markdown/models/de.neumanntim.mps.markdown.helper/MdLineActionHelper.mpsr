@@ -63,7 +63,6 @@
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
-      <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -240,7 +239,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="7zjXmnzg6GH">
-    <property role="TrG5h" value="MdTextlineActionHelper" />
+    <property role="TrG5h" value="MdLineActionHelper" />
     <node concept="3clFbW" id="7zjXmnzg6JG" role="jymVt">
       <node concept="3cqZAl" id="7zjXmnzg6JI" role="3clF45" />
       <node concept="3Tm6S6" id="7zjXmnzg6Ke" role="1B3o_S" />
@@ -506,7 +505,7 @@
                 <ref role="3cqZAo" node="7zjXmnzTIcH" resolve="basicTextNode" />
               </node>
               <node concept="3TrcHB" id="7zjXmnzTJuT" role="2OqNvi">
-                <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
               </node>
             </node>
             <node concept="17RvpY" id="7zjXmnzTMRX" role="2OqNvi" />
@@ -606,12 +605,12 @@
                     <node concept="Xl_RD" id="7zjXmnzUeck" role="37vLTx">
                       <property role="Xl_RC" value="" />
                     </node>
-                    <node concept="2OqwBi" id="7zjXmnzUecl" role="37vLTJ">
+                    <node concept="2OqwBi" id="29jyUzpt3WX" role="37vLTJ">
                       <node concept="37vLTw" id="7zjXmnzUecm" role="2Oq$k0">
                         <ref role="3cqZAo" node="7zjXmnzUec3" resolve="leftBasicText" />
                       </node>
-                      <node concept="3TrcHB" id="7zjXmnzUecn" role="2OqNvi">
-                        <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                      <node concept="3TrcHB" id="29jyUzpt4Pb" role="2OqNvi">
+                        <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                       </node>
                     </node>
                   </node>
@@ -624,7 +623,7 @@
                     <ref role="3cqZAo" node="7zjXmnzUec3" resolve="leftBasicText" />
                   </node>
                   <node concept="3TrcHB" id="7zjXmnzUecs" role="2OqNvi">
-                    <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                    <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                   </node>
                 </node>
               </node>
@@ -639,7 +638,7 @@
                       <ref role="3cqZAo" node="7zjXmnzUec3" resolve="leftBasicText" />
                     </node>
                     <node concept="3TrcHB" id="7zjXmnzUecz" role="2OqNvi">
-                      <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                      <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7zjXmnzUec$" role="2OqNvi">
@@ -657,7 +656,7 @@
                         <ref role="3cqZAo" node="7zjXmnzUeca" resolve="rightBasicText" />
                       </node>
                       <node concept="3TrcHB" id="7zjXmnzUecF" role="2OqNvi">
-                        <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                        <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="7zjXmnzUecG" role="37vLTJ">
@@ -665,7 +664,7 @@
                         <ref role="3cqZAo" node="7zjXmnzUec3" resolve="leftBasicText" />
                       </node>
                       <node concept="3TrcHB" id="7zjXmnzUecI" role="2OqNvi">
-                        <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                        <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                       </node>
                     </node>
                   </node>
@@ -677,7 +676,7 @@
                     <ref role="3cqZAo" node="7zjXmnzUeca" resolve="rightBasicText" />
                   </node>
                   <node concept="3TrcHB" id="7zjXmnzUecM" role="2OqNvi">
-                    <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                    <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                   </node>
                 </node>
                 <node concept="17RvpY" id="7zjXmnzUecN" role="2OqNvi" />
@@ -829,7 +828,7 @@
                 </node>
                 <node concept="1mIQ4w" id="7zjXmnzWm9z" role="2OqNvi">
                   <node concept="chp4Y" id="7zjXmnzWm9$" role="cj9EA">
-                    <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                    <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                   </node>
                 </node>
               </node>
@@ -841,7 +840,7 @@
                 </node>
                 <node concept="1mIQ4w" id="7zjXmnzUjue" role="2OqNvi">
                   <node concept="chp4Y" id="7zjXmnzUjuf" role="cj9EA">
-                    <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                    <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                   </node>
                 </node>
               </node>
@@ -854,7 +853,7 @@
             <node concept="1PxgMI" id="7zjXmnzUttZ" role="37wK5m">
               <property role="1BlNFB" value="true" />
               <node concept="chp4Y" id="7zjXmnzUtQS" role="3oSUPX">
-                <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
               </node>
               <node concept="37vLTw" id="7zjXmnzUrzn" role="1m5AlR">
                 <ref role="3cqZAo" node="7zjXmnz_16r" resolve="left" />
@@ -863,7 +862,7 @@
             <node concept="1PxgMI" id="7zjXmnzUuib" role="37wK5m">
               <property role="1BlNFB" value="true" />
               <node concept="chp4Y" id="7zjXmnzUuSQ" role="3oSUPX">
-                <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
               </node>
               <node concept="37vLTw" id="7zjXmnzUsx7" role="1m5AlR">
                 <ref role="3cqZAo" node="7zjXmnz_3oW" resolve="right" />
@@ -876,7 +875,7 @@
       <node concept="37vLTG" id="7zjXmnz$X7K" role="3clF46">
         <property role="TrG5h" value="nodeThatWasSelected" />
         <node concept="3Tqbb2" id="7zjXmnz$X7J" role="1tU5fm">
-          <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+          <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
         </node>
       </node>
       <node concept="37vLTG" id="7zjXmnz$ZWH" role="3clF46">
@@ -1057,7 +1056,7 @@
           <node concept="22lmx$" id="7zjXmnz$vwv" role="3clFbw">
             <node concept="17QLQc" id="7zjXmnz$x_X" role="3uHU7w">
               <node concept="359W_D" id="7zjXmnz$ylI" role="3uHU7w">
-                <ref role="359W_E" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                <ref role="359W_E" to="mlia:2ombABeqpCw" resolve="MdLine" />
                 <ref role="359W_F" to="mlia:6PCt4gx9Y6y" resolve="content" />
               </node>
               <node concept="2OqwBi" id="7zjXmnz$w2o" role="3uHU7B">
@@ -1075,7 +1074,7 @@
                   </node>
                   <node concept="1mIQ4w" id="7zjXmnz$t8p" role="2OqNvi">
                     <node concept="chp4Y" id="7zjXmnz$t8q" role="cj9EA">
-                      <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                      <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                     </node>
                   </node>
                 </node>
@@ -1090,7 +1089,7 @@
                   </node>
                   <node concept="1mIQ4w" id="7zjXmnzB8hj" role="2OqNvi">
                     <node concept="chp4Y" id="7zjXmnzB8hk" role="cj9EA">
-                      <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                      <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdLine" />
                     </node>
                   </node>
                 </node>
@@ -1102,12 +1101,12 @@
           <node concept="3cpWsn" id="7zjXmnz$$Si" role="3cpWs9">
             <property role="TrG5h" value="selectedNode" />
             <node concept="3Tqbb2" id="7zjXmnz$$Sd" role="1tU5fm">
-              <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+              <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
             </node>
             <node concept="1PxgMI" id="7zjXmnz$Bo4" role="33vP2m">
               <property role="1BlNFB" value="true" />
               <node concept="chp4Y" id="7zjXmnz$C0J" role="3oSUPX">
-                <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
               </node>
               <node concept="37vLTw" id="7zjXmnz$B1e" role="1m5AlR">
                 <ref role="3cqZAo" node="7zjXmnz$pUz" resolve="selectedNodeUntyped" />
@@ -1120,12 +1119,12 @@
           <node concept="3cpWsn" id="7zjXmnzg8NL" role="3cpWs9">
             <property role="TrG5h" value="textline" />
             <node concept="3Tqbb2" id="7zjXmnzg8Nf" role="1tU5fm">
-              <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+              <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
             </node>
             <node concept="1PxgMI" id="7zjXmnzg8NM" role="33vP2m">
               <property role="1BlNFB" value="true" />
               <node concept="chp4Y" id="7zjXmnzg8NN" role="3oSUPX">
-                <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdLine" />
               </node>
               <node concept="2OqwBi" id="7zjXmnzg8NO" role="1m5AlR">
                 <node concept="1mfA1w" id="7zjXmnzg8NQ" role="2OqNvi" />
@@ -1193,16 +1192,13 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="7zjXmnzgo0h" role="3clFbw">
-                <node concept="2OqwBi" id="7zjXmnzgnpc" role="2Oq$k0">
-                  <node concept="37vLTw" id="7zjXmnzgnni" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7zjXmnzg8NL" resolve="textline" />
-                  </node>
-                  <node concept="2qgKlT" id="7zjXmnzgnrE" role="2OqNvi">
-                    <ref role="37wK5l" to="le1w:6PCt4gx9YUE" resolve="getLineString" />
-                  </node>
+              <node concept="2OqwBi" id="7zjXmnzgnpc" role="3clFbw">
+                <node concept="37vLTw" id="7zjXmnzgnni" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7zjXmnzg8NL" resolve="textline" />
                 </node>
-                <node concept="17RlXB" id="7zjXmnzgoBT" role="2OqNvi" />
+                <node concept="2qgKlT" id="29jyUzps$GL" role="2OqNvi">
+                  <ref role="37wK5l" to="le1w:29jyUzpsru3" resolve="isEmpty" />
+                </node>
               </node>
               <node concept="9aQIb" id="7zjXmnzgrX5" role="9aQIa">
                 <node concept="3clFbS" id="7zjXmnzgrX6" role="9aQI4">
@@ -1217,7 +1213,7 @@
                         </node>
                         <node concept="1mIQ4w" id="7zjXmnzgtlh" role="2OqNvi">
                           <node concept="chp4Y" id="7zjXmnzgtli" role="cj9EA">
-                            <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                            <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdLine" />
                           </node>
                         </node>
                       </node>
@@ -1232,12 +1228,12 @@
                     <node concept="3cpWsn" id="7zjXmnzgucA" role="3cpWs9">
                       <property role="TrG5h" value="nextTextline" />
                       <node concept="3Tqbb2" id="7zjXmnzgu7T" role="1tU5fm">
-                        <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                        <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
                       </node>
                       <node concept="1PxgMI" id="7zjXmnzgucB" role="33vP2m">
                         <property role="1BlNFB" value="true" />
                         <node concept="chp4Y" id="7zjXmnzgucC" role="3oSUPX">
-                          <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                          <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdLine" />
                         </node>
                         <node concept="2OqwBi" id="7zjXmnzgucD" role="1m5AlR">
                           <node concept="37vLTw" id="7zjXmnzgucE" role="2Oq$k0">
@@ -1252,7 +1248,7 @@
                     <node concept="3cpWsn" id="7zjXmnzh9Ik" role="3cpWs9">
                       <property role="TrG5h" value="nodeToSelect" />
                       <node concept="3Tqbb2" id="7zjXmnzh9H9" role="1tU5fm">
-                        <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                        <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                       </node>
                       <node concept="2OqwBi" id="7zjXmnzh9Il" role="33vP2m">
                         <node concept="2OqwBi" id="7zjXmnzh9Im" role="2Oq$k0">
@@ -1438,16 +1434,13 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2OqwBi" id="7zjXmnzhejX" role="3clFbw">
-                  <node concept="2OqwBi" id="7zjXmnzhdPE" role="2Oq$k0">
-                    <node concept="37vLTw" id="7zjXmnzhdGd" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7zjXmnzg8NL" resolve="textline" />
-                    </node>
-                    <node concept="2qgKlT" id="7zjXmnzhdT_" role="2OqNvi">
-                      <ref role="37wK5l" to="le1w:6PCt4gx9YUE" resolve="getLineString" />
-                    </node>
+                <node concept="2OqwBi" id="7zjXmnzhdPE" role="3clFbw">
+                  <node concept="37vLTw" id="7zjXmnzhdGd" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7zjXmnzg8NL" resolve="textline" />
                   </node>
-                  <node concept="17RlXB" id="7zjXmnzhf52" role="2OqNvi" />
+                  <node concept="2qgKlT" id="29jyUzpsAdb" role="2OqNvi">
+                    <ref role="37wK5l" to="le1w:29jyUzpsru3" resolve="isEmpty" />
+                  </node>
                 </node>
                 <node concept="9aQIb" id="7zjXmnzxIvW" role="9aQIa">
                   <node concept="3clFbS" id="7zjXmnzxIvX" role="9aQI4">
@@ -1462,7 +1455,7 @@
                           </node>
                           <node concept="1mIQ4w" id="7zjXmnzxFm1" role="2OqNvi">
                             <node concept="chp4Y" id="7zjXmnzxFm2" role="cj9EA">
-                              <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                              <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdLine" />
                             </node>
                           </node>
                         </node>
@@ -1477,12 +1470,12 @@
                       <node concept="3cpWsn" id="7zjXmnzxFm7" role="3cpWs9">
                         <property role="TrG5h" value="prevTextline" />
                         <node concept="3Tqbb2" id="7zjXmnzxFm8" role="1tU5fm">
-                          <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                          <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
                         </node>
                         <node concept="1PxgMI" id="7zjXmnzxFm9" role="33vP2m">
                           <property role="1BlNFB" value="true" />
                           <node concept="chp4Y" id="7zjXmnzxFma" role="3oSUPX">
-                            <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                            <ref role="cht4Q" to="mlia:2ombABeqpCw" resolve="MdLine" />
                           </node>
                           <node concept="2OqwBi" id="7zjXmnzxFmb" role="1m5AlR">
                             <node concept="37vLTw" id="7zjXmnzxFmc" role="2Oq$k0">
@@ -1497,7 +1490,7 @@
                       <node concept="3cpWsn" id="7zjXmnzxFmf" role="3cpWs9">
                         <property role="TrG5h" value="nodeToSelect" />
                         <node concept="3Tqbb2" id="7zjXmnzxFmg" role="1tU5fm">
-                          <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                          <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                         </node>
                         <node concept="2OqwBi" id="7zjXmnzxFmh" role="33vP2m">
                           <node concept="2OqwBi" id="7zjXmnzxFmi" role="2Oq$k0">

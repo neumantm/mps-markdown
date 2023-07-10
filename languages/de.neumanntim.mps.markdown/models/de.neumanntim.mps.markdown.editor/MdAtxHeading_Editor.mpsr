@@ -77,8 +77,8 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6WlRB7ESdBW">
-    <property role="3GE5qa" value="header" />
-    <ref role="1XX52x" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+    <property role="3GE5qa" value="heading" />
+    <ref role="1XX52x" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
     <node concept="3EZMnI" id="6PCt4gwPNe_" role="2wV5jI">
       <node concept="2iRfu4" id="6PCt4gwPNeA" role="2iSdaV" />
       <node concept="1HlG4h" id="6PCt4gwRFHY" role="3EZMnx">

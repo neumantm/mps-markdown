@@ -20,8 +20,8 @@
     </language>
   </registry>
   <node concept="22mcaB" id="6PCt4gx1_n4">
-    <property role="3GE5qa" value="textline" />
-    <ref role="aqKnT" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+    <property role="3GE5qa" value="line" />
+    <ref role="aqKnT" to="mlia:2ombABeqpCw" resolve="MdLine" />
     <node concept="22hDWj" id="6PCt4gx1_oH" role="22hAXT" />
   </node>
 </model>

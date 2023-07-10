@@ -20,7 +20,7 @@
     </language>
   </registry>
   <node concept="22mcaB" id="6PCt4gxbVVW">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <ref role="aqKnT" to="mlia:6PCt4gx9eWJ" resolve="MdBasicText" />
     <node concept="22hDWj" id="6PCt4gxbVZB" role="22hAXT" />
   </node>

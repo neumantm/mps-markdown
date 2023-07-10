@@ -18,8 +18,8 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="6PCt4gx9Djn">
-    <property role="3GE5qa" value="textline" />
-    <ref role="1M2myG" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+    <property role="3GE5qa" value="line" />
+    <ref role="1M2myG" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
     <ref role="1MND4H" to="mlia:6PCt4gx9eWJ" resolve="MdBasicText" />
   </node>
 </model>

@@ -117,7 +117,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="7zjXmnzZ80F">
-    <property role="TrG5h" value="MdTextelementActionHelper" />
+    <property role="TrG5h" value="MdInlineActionHelper" />
     <node concept="2YIFZL" id="7zjXmnzZ82O" role="jymVt">
       <property role="TrG5h" value="replaceElementWithBasicText" />
       <node concept="3clFbS" id="7zjXmnzZ82R" role="3clF47">
@@ -141,12 +141,12 @@
             <node concept="37vLTw" id="7zjXmnzZcLG" role="37vLTx">
               <ref role="3cqZAo" node="7zjXmnzZ85K" resolve="contentOfNewBasicText" />
             </node>
-            <node concept="2OqwBi" id="7zjXmnzZbUn" role="37vLTJ">
+            <node concept="2OqwBi" id="29jyUzpt1dz" role="37vLTJ">
               <node concept="37vLTw" id="7zjXmnzZbI5" role="2Oq$k0">
                 <ref role="3cqZAo" node="7zjXmnzZbI1" resolve="newNode" />
               </node>
-              <node concept="3TrcHB" id="7zjXmnzZc90" role="2OqNvi">
-                <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+              <node concept="3TrcHB" id="29jyUzpt1i$" role="2OqNvi">
+                <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
               </node>
             </node>
           </node>
@@ -330,7 +330,7 @@
       <node concept="37vLTG" id="7zjXmnzZ84h" role="3clF46">
         <property role="TrG5h" value="nodeToReplace" />
         <node concept="3Tqbb2" id="7zjXmnzZ84g" role="1tU5fm">
-          <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+          <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
         </node>
       </node>
       <node concept="37vLTG" id="7zjXmnzZ85K" role="3clF46">

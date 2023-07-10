@@ -88,7 +88,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6PCt4gx9BEo">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <ref role="1XX52x" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
     <node concept="3EZMnI" id="6PCt4gx9BK6" role="2wV5jI">
       <node concept="3F0ifn" id="6PCt4gx9BL1" role="3EZMnx">
@@ -122,7 +122,7 @@
       <node concept="3F0A7n" id="6PCt4gx9Cnp" role="3EZMnx">
         <property role="39s7Ar" value="true" />
         <property role="1O74Pk" value="true" />
-        <ref role="1NtTu8" to="mlia:6PCt4gx9ePo" resolve="text" />
+        <ref role="1NtTu8" to="mlia:29jyUzpsI7M" resolve="text" />
         <ref role="1ERwB7" node="5ujOtII$zZx" resolve="MdEmphasizedText_Actions_FromText" />
         <node concept="Vb9p2" id="5ujOtIIk8JN" role="3F10Kt">
           <property role="Vbekb" value="hL7GYu6/QUERY" />

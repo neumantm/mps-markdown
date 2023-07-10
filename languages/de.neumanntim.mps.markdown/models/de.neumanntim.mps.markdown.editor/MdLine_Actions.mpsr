@@ -157,9 +157,9 @@
     </language>
   </registry>
   <node concept="1h_SRR" id="6PCt4gxHHSo">
-    <property role="3GE5qa" value="textline" />
-    <property role="TrG5h" value="MdTextline_Actions" />
-    <ref role="1h_SK9" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+    <property role="3GE5qa" value="line" />
+    <property role="TrG5h" value="MdLine_Actions" />
+    <ref role="1h_SK9" to="mlia:2ombABeqpCw" resolve="MdLine" />
     <node concept="1hA7zw" id="6PCt4gxHI29" role="1h_SK8">
       <property role="1hAc7j" value="13S4mXuSN7V/insert_action_id" />
       <node concept="1hAIg9" id="6PCt4gxHI2a" role="1hA7z_">
@@ -181,7 +181,7 @@
               <property role="TrG5h" value="newLineNodes" />
               <node concept="_YKpA" id="14tnK5oldeU" role="1tU5fm">
                 <node concept="3Tqbb2" id="14tnK5oldeW" role="_ZDj9">
-                  <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                  <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                 </node>
               </node>
               <node concept="2OqwBi" id="14tnK5olaXe" role="33vP2m">
@@ -194,7 +194,7 @@
                   </node>
                   <node concept="v3k3i" id="14tnK5ok$mq" role="2OqNvi">
                     <node concept="chp4Y" id="14tnK5ok$mr" role="v3oSu">
-                      <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                      <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                     </node>
                   </node>
                 </node>
@@ -304,7 +304,7 @@
                           <ref role="3cqZAo" node="14tnK5ol84F" resolve="newBasicText" />
                         </node>
                         <node concept="3TrcHB" id="14tnK5ol8BH" role="2OqNvi">
-                          <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                          <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="14tnK5ol4kS" role="37vLTx">
@@ -313,7 +313,7 @@
                             <ref role="3cqZAo" node="14tnK5ol2qC" resolve="selectedBasicText" />
                           </node>
                           <node concept="3TrcHB" id="14tnK5ol4kV" role="2OqNvi">
-                            <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                            <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                           </node>
                         </node>
                         <node concept="liA8E" id="14tnK5ol4kW" role="2OqNvi">
@@ -333,7 +333,7 @@
                             <ref role="3cqZAo" node="14tnK5ol2qC" resolve="selectedBasicText" />
                           </node>
                           <node concept="3TrcHB" id="14tnK5ol6hH" role="2OqNvi">
-                            <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                            <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                           </node>
                         </node>
                         <node concept="liA8E" id="14tnK5ol6T0" role="2OqNvi">
@@ -351,7 +351,7 @@
                           <ref role="3cqZAo" node="14tnK5ol2qC" resolve="selectedBasicText" />
                         </node>
                         <node concept="3TrcHB" id="14tnK5ol5nQ" role="2OqNvi">
-                          <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                          <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                         </node>
                       </node>
                     </node>
@@ -382,12 +382,12 @@
             <node concept="3cpWsn" id="14tnK5oiFS_" role="3cpWs9">
               <property role="TrG5h" value="newLine" />
               <node concept="3Tqbb2" id="14tnK5oiFC2" role="1tU5fm">
-                <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
               </node>
               <node concept="2ShNRf" id="14tnK5oiFSA" role="33vP2m">
                 <node concept="2fJWfE" id="14tnK5oiFSB" role="2ShVmc">
                   <node concept="3Tqbb2" id="14tnK5oiFSC" role="3zrR0E">
-                    <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                    <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
                   </node>
                 </node>
               </node>
@@ -479,7 +479,7 @@
               <property role="TrG5h" value="newLineNodes" />
               <node concept="_YKpA" id="14tnK5ooAVu" role="1tU5fm">
                 <node concept="3Tqbb2" id="14tnK5ooAVv" role="_ZDj9">
-                  <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                  <ref role="ehGHo" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                 </node>
               </node>
               <node concept="2OqwBi" id="14tnK5ooAVw" role="33vP2m">
@@ -492,7 +492,7 @@
                   </node>
                   <node concept="v3k3i" id="14tnK5ooAV_" role="2OqNvi">
                     <node concept="chp4Y" id="14tnK5ooAVA" role="v3oSu">
-                      <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdTextelement" />
+                      <ref role="cht4Q" to="mlia:6PCt4gx9eEN" resolve="MdInline" />
                     </node>
                   </node>
                 </node>
@@ -602,7 +602,7 @@
                           <ref role="3cqZAo" node="14tnK5ooAWb" resolve="newBasicText" />
                         </node>
                         <node concept="3TrcHB" id="14tnK5ooAWp" role="2OqNvi">
-                          <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                          <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="14tnK5ooAWq" role="37vLTx">
@@ -611,7 +611,7 @@
                             <ref role="3cqZAo" node="14tnK5ooAVI" resolve="selectedBasicText" />
                           </node>
                           <node concept="3TrcHB" id="14tnK5ooAWt" role="2OqNvi">
-                            <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                            <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                           </node>
                         </node>
                         <node concept="liA8E" id="14tnK5ooAWu" role="2OqNvi">
@@ -634,7 +634,7 @@
                             <ref role="3cqZAo" node="14tnK5ooAVI" resolve="selectedBasicText" />
                           </node>
                           <node concept="3TrcHB" id="14tnK5ooAW_" role="2OqNvi">
-                            <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                            <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                           </node>
                         </node>
                         <node concept="liA8E" id="14tnK5ooAWA" role="2OqNvi">
@@ -649,7 +649,7 @@
                           <ref role="3cqZAo" node="14tnK5ooAVI" resolve="selectedBasicText" />
                         </node>
                         <node concept="3TrcHB" id="14tnK5ooAWF" role="2OqNvi">
-                          <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                          <ref role="3TsBF5" to="mlia:29jyUzpsHXc" resolve="text" />
                         </node>
                       </node>
                     </node>
@@ -680,12 +680,12 @@
             <node concept="3cpWsn" id="14tnK5ooAWO" role="3cpWs9">
               <property role="TrG5h" value="newLine" />
               <node concept="3Tqbb2" id="14tnK5ooAWP" role="1tU5fm">
-                <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
               </node>
               <node concept="2ShNRf" id="14tnK5ooAWQ" role="33vP2m">
                 <node concept="2fJWfE" id="14tnK5ooAWR" role="2ShVmc">
                   <node concept="3Tqbb2" id="14tnK5ooAWS" role="3zrR0E">
-                    <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdTextline" />
+                    <ref role="ehGHo" to="mlia:2ombABeqpCw" resolve="MdLine" />
                   </node>
                 </node>
               </node>

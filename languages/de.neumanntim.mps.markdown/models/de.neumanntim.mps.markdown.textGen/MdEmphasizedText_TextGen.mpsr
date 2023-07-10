@@ -94,7 +94,7 @@
     </language>
   </registry>
   <node concept="WtQ9Q" id="7zjXmnz8VN4">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <ref role="WuzLi" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
     <node concept="11bSqf" id="7zjXmnz8VN5" role="11c4hB">
       <node concept="3clFbS" id="7zjXmnz8VN6" role="2VODD2">
@@ -244,7 +244,7 @@
           <node concept="l9hG8" id="7zjXmnz8VOo" role="lcghm">
             <node concept="2OqwBi" id="7zjXmnz8VOn" role="lb14g">
               <node concept="3TrcHB" id="7zjXmnz8VOm" role="2OqNvi">
-                <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                <ref role="3TsBF5" to="mlia:29jyUzpsI7M" resolve="text" />
               </node>
               <node concept="117lpO" id="7zjXmnz8VOl" role="2Oq$k0" />
             </node>

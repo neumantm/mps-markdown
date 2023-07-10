@@ -125,7 +125,7 @@
     </language>
   </registry>
   <node concept="3INDKC" id="5ujOtIIN6GZ">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <property role="TrG5h" value="MakeEmphasizedText" />
     <node concept="1Qtc8_" id="5ujOtIIdYYB" role="IW6Ez">
       <node concept="3cWJ9i" id="5ujOtIIdZhw" role="1Qtc8$">
@@ -179,7 +179,7 @@
                     <ref role="3cqZAo" node="5ujOtIIe2Wq" resolve="newNode" />
                   </node>
                   <node concept="3TrcHB" id="5ujOtIIe3sX" role="2OqNvi">
-                    <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                    <ref role="3TsBF5" to="mlia:29jyUzpsI7M" resolve="text" />
                   </node>
                 </node>
               </node>

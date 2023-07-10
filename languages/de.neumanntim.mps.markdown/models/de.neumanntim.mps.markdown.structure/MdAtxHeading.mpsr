@@ -34,12 +34,12 @@
   </registry>
   <node concept="1TIwiD" id="6WlRB7ESaLv">
     <property role="EcuMT" value="8004548493574188127" />
-    <property role="TrG5h" value="MdHeader" />
+    <property role="TrG5h" value="MdAtxHeading" />
     <property role="34LRSv" value="#" />
-    <property role="3GE5qa" value="header" />
+    <property role="3GE5qa" value="heading" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6WlRB7ESaSO" role="PzmwI">
-      <ref role="PrY4T" node="2ombABeqp6I" resolve="MarkdownElement" />
+      <ref role="PrY4T" node="2ombABeqp6I" resolve="MdBlock" />
     </node>
     <node concept="1TJgyi" id="6WlRB7ESaXk" role="1TKVEl">
       <property role="IQ2nx" value="8004548493574188884" />

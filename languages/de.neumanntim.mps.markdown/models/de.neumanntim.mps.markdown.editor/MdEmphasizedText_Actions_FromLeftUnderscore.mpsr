@@ -64,7 +64,7 @@
     </language>
   </registry>
   <node concept="1h_SRR" id="7zjXmnzDlvX">
-    <property role="3GE5qa" value="textline" />
+    <property role="3GE5qa" value="line" />
     <property role="TrG5h" value="MdEmphasizedText_Actions_FromLeftUnderscore" />
     <ref role="1h_SK9" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
     <node concept="1hA7zw" id="7zjXmnzDmbL" role="1h_SK8">
@@ -97,7 +97,7 @@
               <node concept="2OqwBi" id="7zjXmnzZO$h" role="37wK5m">
                 <node concept="0IXxy" id="7zjXmnzZOoj" role="2Oq$k0" />
                 <node concept="3TrcHB" id="7zjXmnzZOQS" role="2OqNvi">
-                  <ref role="3TsBF5" to="mlia:6PCt4gx9ePo" resolve="text" />
+                  <ref role="3TsBF5" to="mlia:29jyUzpsI7M" resolve="text" />
                 </node>
               </node>
               <node concept="1Q80Hx" id="7zjXmnzZP0u" role="37wK5m" />
