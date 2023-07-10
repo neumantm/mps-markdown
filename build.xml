@@ -214,6 +214,38 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.neumanntim.mps.markdown-models" prefix="module/models" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.neumanntim.mps.markdown-generator-templates" prefix="module/generator/templates" />
     </jar>
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.sandbox.jar" />
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.sandbox.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/de.neumanntim.mps.markdown.sandbox.jar/META-INF/module.xml">
+      <module namespace="de.neumanntim.mps.markdown.sandbox" type="solution" uuid="61a6c168-0a77-41c6-9d74-a1c45d61210d">
+        <dependencies />
+        <uses>
+          <language id="l:8200bdbd-274e-492c-a4de-4849bbe9fc7a:de.neumanntim.mps.markdown" />
+        </uses>
+        <classpath>
+          <entry path="." />
+        </classpath>
+        <sources jar="de.neumanntim.mps.markdown.sandbox-src.jar" descriptor="de.neumanntim.mps.markdown.sandbox.msd" />
+      </module>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps-markdown/languages/mps-markdown/de.neumanntim.mps.markdown.sandbox.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/de.neumanntim.mps.markdown.sandbox" />
+      <fileset dir="${project_home}/languages/de.neumanntim.mps.markdown.sandbox/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/de.neumanntim.mps.markdown.sandbox.jar" />
+    </jar>
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.neumanntim.mps.markdown.sandbox-models">
+      <fileset dir="${project_home}/languages/de.neumanntim.mps.markdown.sandbox/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    </copyModels>
+    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps-markdown/languages/mps-markdown/de.neumanntim.mps.markdown.sandbox-src.jar" duplicate="preserve">
+      <fileset dir="${project_home}/languages/de.neumanntim.mps.markdown.sandbox/source_gen">
+        <exclude name="**/trace.info" />
+        <exclude name="**/exports" />
+        <exclude name="**/checkpoints" />
+        <exclude name="**/*.mps" />
+      </fileset>
+      <zipfileset file="${basedir}/languages/de.neumanntim.mps.markdown.sandbox/de.neumanntim.mps.markdown.sandbox.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-de.neumanntim.mps.markdown.sandbox-models" prefix="module/models" />
+    </jar>
     <zip destfile="${build.layout}/mps-markdown.zip">
       <fileset dir="${build.tmp}/default/mps-markdown.zip" />
     </zip>
@@ -231,7 +263,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.de.neumanntim.mps.markdown, java.compile.de.neumanntim.mps.markdown.generator" />
+  <target name="compileJava" depends="java.compile.de.neumanntim.mps.markdown, java.compile.de.neumanntim.mps.markdown.generator, java.compile.de.neumanntim.mps.markdown.sandbox" />
   
   <target name="processResources" />
   
@@ -357,6 +389,9 @@
       <chunk>
         <module file="${basedir}/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown.mpl" />
       </chunk>
+      <chunk>
+        <module file="${basedir}/languages/de.neumanntim.mps.markdown.sandbox/de.neumanntim.mps.markdown.sandbox.msd" />
+      </chunk>
       <jvmargs>
         <arg value="-ea" />
         <arg value="-Xmx512m" />
@@ -479,8 +514,21 @@
     </javac>
   </target>
   
+  <target name="java.compile.de.neumanntim.mps.markdown.sandbox">
+    <mkdir dir="${project_home}/languages/de.neumanntim.mps.markdown.sandbox/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/de.neumanntim.mps.markdown.sandbox" />
+    <javac destdir="${build.tmp}/java/out/de.neumanntim.mps.markdown.sandbox" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+      <compilerarg value="-Xlint:none" />
+      <src>
+        <path location="${project_home}/languages/de.neumanntim.mps.markdown.sandbox/source_gen" />
+      </src>
+      <classpath />
+    </javac>
+  </target>
+  
   <target name="cleanSources">
     <delete dir="${project_home}/languages/de.neumanntim.mps.markdown/source_gen" />
     <delete dir="${project_home}/languages/de.neumanntim.mps.markdown/generator/source_gen" />
+    <delete dir="${project_home}/languages/de.neumanntim.mps.markdown.sandbox/source_gen" />
   </target>
 </project>

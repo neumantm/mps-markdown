@@ -113,6 +113,7 @@
         <property id="2889113830911481881" name="deployFolderName" index="3ZfqAx" />
         <child id="8137134783396676835" name="location" index="1HemKq" />
       </concept>
+      <concept id="3189788309731840247" name="jetbrains.mps.build.mps.structure.BuildMps_Solution" flags="ng" index="1E1JtA" />
       <concept id="3189788309731840248" name="jetbrains.mps.build.mps.structure.BuildMps_Language" flags="ng" index="1E1JtD">
         <child id="9200313594498201639" name="generator" index="1TViLv" />
       </concept>
@@ -280,6 +281,44 @@
         <node concept="1SiIV0" id="29jyUzprpYC" role="3bR37C">
           <node concept="3bR9La" id="29jyUzprpYD" role="1SiIV1">
             <ref role="3bR37D" to="ffeo:1TaHNgiIbIZ" resolve="MPS.Editor" />
+          </node>
+        </node>
+      </node>
+      <node concept="1E1JtA" id="2ombABepQez" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="de.neumanntim.mps.markdown.sandbox" />
+        <property role="3LESm3" value="61a6c168-0a77-41c6-9d74-a1c45d61210d" />
+        <node concept="55IIr" id="2ombABepQeu" role="3LF7KH">
+          <node concept="2Ry0Ak" id="2ombABepQev" role="iGT6I">
+            <property role="2Ry0Am" value="languages" />
+            <node concept="2Ry0Ak" id="2ombABepQew" role="2Ry0An">
+              <property role="2Ry0Am" value="de.neumanntim.mps.markdown.sandbox" />
+              <node concept="2Ry0Ak" id="2ombABepQex" role="2Ry0An">
+                <property role="2Ry0Am" value="de.neumanntim.mps.markdown.sandbox.msd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1BupzO" id="2ombABepQfc" role="3bR31x">
+          <property role="3ZfqAx" value="models" />
+          <property role="1Hdu6h" value="true" />
+          <property role="1HemKv" value="true" />
+          <node concept="3LXTmp" id="29jyUzprpZl" role="1HemKq">
+            <node concept="398BVA" id="29jyUzprpZ9" role="3LXTmr">
+              <ref role="398BVh" node="2ombABepQfr" resolve="project_home" />
+              <node concept="2Ry0Ak" id="29jyUzprpZa" role="iGT6I">
+                <property role="2Ry0Am" value="languages" />
+                <node concept="2Ry0Ak" id="29jyUzprpZb" role="2Ry0An">
+                  <property role="2Ry0Am" value="de.neumanntim.mps.markdown.sandbox" />
+                  <node concept="2Ry0Ak" id="29jyUzprpZc" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="29jyUzprpZm" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
           </node>
         </node>
       </node>
