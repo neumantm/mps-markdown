@@ -96,7 +96,7 @@
               <ref role="1YBMHb" node="7zjXmnzZ0K_" resolve="mdBasicText" />
             </node>
             <node concept="3Cnw8n" id="7zjXmnzZ3um" role="1urrFz">
-              <ref role="QpYPw" node="7zjXmnzZ3uj" resolve="fix_" />
+              <ref role="QpYPw" node="7zjXmnzZ3uj" resolve="fix_adjacentMdBasicTexts" />
               <node concept="3CnSsL" id="7zjXmnzZ3Gm" role="3Coj4f">
                 <ref role="QkamJ" node="7zjXmnzZ3yw" resolve="left" />
                 <node concept="1PxgMI" id="7zjXmnzZ4jZ" role="3CoRuB">

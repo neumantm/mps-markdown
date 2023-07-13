@@ -698,7 +698,7 @@
             <node concept="3cpWs6" id="7zjXmnzUecS" role="3cqZAp">
               <node concept="2ShNRf" id="7zjXmnzUecT" role="3cqZAk">
                 <node concept="1pGfFk" id="7zjXmnzUecU" role="2ShVmc">
-                  <ref role="37wK5l" node="7zjXmnz_nbl" resolve="AfterMergeCaretPosition" />
+                  <ref role="37wK5l" node="7zjXmnz_nbl" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
                   <node concept="37vLTw" id="7zjXmnzUecV" role="37wK5m">
                     <ref role="3cqZAo" node="7zjXmnzUec3" resolve="leftBasicText" />
                   </node>
@@ -716,7 +716,7 @@
               <node concept="2ShNRf" id="7zjXmnzUed0" role="3cqZAk">
                 <node concept="1pGfFk" id="7zjXmnzUed1" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" node="7zjXmnz_nbl" resolve="AfterMergeCaretPosition" />
+                  <ref role="37wK5l" node="7zjXmnz_nbl" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
                   <node concept="37vLTw" id="7zjXmnzUed2" role="37wK5m">
                     <ref role="3cqZAo" node="7zjXmnzUcVO" resolve="right" />
                   </node>
@@ -740,7 +740,7 @@
               <node concept="2ShNRf" id="7zjXmnzUed9" role="3cqZAk">
                 <node concept="1pGfFk" id="7zjXmnzUeda" role="2ShVmc">
                   <property role="373rjd" value="true" />
-                  <ref role="37wK5l" node="7zjXmnz_nbl" resolve="AfterMergeCaretPosition" />
+                  <ref role="37wK5l" node="7zjXmnz_nbl" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
                   <node concept="37vLTw" id="7zjXmnzUedb" role="37wK5m">
                     <ref role="3cqZAo" node="7zjXmnzUcAN" resolve="left" />
                   </node>
@@ -764,7 +764,7 @@
       </node>
       <node concept="3Tm1VV" id="7zjXmnzUaKn" role="1B3o_S" />
       <node concept="3uibUv" id="7zjXmnzUcvA" role="3clF45">
-        <ref role="3uigEE" node="7zjXmnz_hYH" resolve="AfterMergeCaretPosition" />
+        <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
       </node>
       <node concept="37vLTG" id="7zjXmnzUcAN" role="3clF46">
         <property role="TrG5h" value="left" />
@@ -888,7 +888,7 @@
         <node concept="10P_77" id="7zjXmnz_00K" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="7zjXmnz_j1c" role="3clF45">
-        <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdTextlineActionHelper.AfterMergeCaretPosition" />
+        <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
       </node>
     </node>
     <node concept="2tJIrI" id="7zjXmnzuh15" role="jymVt" />
@@ -1296,7 +1296,7 @@
                     <node concept="3cpWsn" id="7zjXmnzCPmW" role="3cpWs9">
                       <property role="TrG5h" value="mergedNodeToSelect" />
                       <node concept="3uibUv" id="7zjXmnzCPmX" role="1tU5fm">
-                        <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdTextlineActionHelper.AfterMergeCaretPosition" />
+                        <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
                       </node>
                       <node concept="1rXfSq" id="7zjXmnzCPmY" role="33vP2m">
                         <ref role="37wK5l" node="7zjXmnz$VMl" resolve="mergeOrRemoveBasicTextsIfNeccesarry" />
@@ -1746,7 +1746,7 @@
                       <node concept="3cpWsn" id="7zjXmnz_vT9" role="3cpWs9">
                         <property role="TrG5h" value="mergedNodeToSelect" />
                         <node concept="3uibUv" id="7zjXmnz_vJB" role="1tU5fm">
-                          <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdTextlineActionHelper.AfterMergeCaretPosition" />
+                          <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
                         </node>
                         <node concept="1rXfSq" id="7zjXmnz_vTa" role="33vP2m">
                           <ref role="37wK5l" node="7zjXmnz$VMl" resolve="mergeOrRemoveBasicTextsIfNeccesarry" />

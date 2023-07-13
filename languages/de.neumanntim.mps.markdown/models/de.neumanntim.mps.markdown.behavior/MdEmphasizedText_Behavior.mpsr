@@ -172,7 +172,7 @@
     </node>
     <node concept="13i0hz" id="29jyUzps3Fh" role="13h7CS">
       <property role="TrG5h" value="isVisible" />
-      <ref role="13i0hy" node="29jyUzps08n" resolve="isVisible" />
+      <ref role="13i0hy" node="29jyUzps08n" resolve="hasVisibleChars" />
       <node concept="3Tm1VV" id="29jyUzps3Fi" role="1B3o_S" />
       <node concept="3clFbS" id="29jyUzps3Fr" role="3clF47">
         <node concept="3clFbF" id="29jyUzps3UR" role="3cqZAp">

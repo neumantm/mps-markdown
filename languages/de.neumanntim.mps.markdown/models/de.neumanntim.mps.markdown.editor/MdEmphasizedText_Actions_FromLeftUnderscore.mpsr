@@ -76,7 +76,7 @@
             <node concept="3fqX7Q" id="7zjXmnzQePc" role="3clFbw">
               <node concept="2YIFZM" id="7zjXmnzQePe" role="3fr31v">
                 <ref role="37wK5l" to="4dhs:7zjXmnzg6M$" resolve="deleteWholeMdTextlineIfAppropriate" />
-                <ref role="1Pybhc" to="4dhs:7zjXmnzg6GH" resolve="MdTextlineActionHelper" />
+                <ref role="1Pybhc" to="4dhs:7zjXmnzg6GH" resolve="MdLineActionHelper" />
                 <node concept="1Q80Hx" id="7zjXmnzQePf" role="37wK5m" />
                 <node concept="3clFbT" id="7zjXmnzQePg" role="37wK5m" />
               </node>
@@ -92,7 +92,7 @@
           <node concept="3clFbF" id="7zjXmnzZNWY" role="3cqZAp">
             <node concept="2YIFZM" id="7zjXmnzZO5V" role="3clFbG">
               <ref role="37wK5l" to="4dhs:7zjXmnzZ82O" resolve="replaceElementWithBasicText" />
-              <ref role="1Pybhc" to="4dhs:7zjXmnzZ80F" resolve="MdTextelementActionHelper" />
+              <ref role="1Pybhc" to="4dhs:7zjXmnzZ80F" resolve="MdInlineActionHelper" />
               <node concept="0IXxy" id="7zjXmnzZO8L" role="37wK5m" />
               <node concept="2OqwBi" id="7zjXmnzZO$h" role="37wK5m">
                 <node concept="0IXxy" id="7zjXmnzZOoj" role="2Oq$k0" />

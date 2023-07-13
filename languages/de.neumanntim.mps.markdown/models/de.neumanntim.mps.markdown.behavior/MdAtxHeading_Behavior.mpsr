@@ -49,7 +49,7 @@
   </registry>
   <node concept="13h7C7" id="6WlRB7ET7Ku">
     <property role="3GE5qa" value="heading" />
-    <ref role="13h7C2" to="mlia:6WlRB7ESaLv" resolve="MdHeader" />
+    <ref role="13h7C2" to="mlia:6WlRB7ESaLv" resolve="MdAtxHeading" />
     <node concept="13hLZK" id="6WlRB7ET7Kv" role="13h7CW">
       <node concept="3clFbS" id="6WlRB7ET7Kw" role="2VODD2">
         <node concept="3clFbF" id="6PCt4gwRH8z" role="3cqZAp">
