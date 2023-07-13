@@ -268,7 +268,7 @@
                       <node concept="1eOMI4" id="14tnK5okR37" role="33vP2m">
                         <node concept="10QFUN" id="14tnK5okR38" role="1eOMHV">
                           <node concept="37vLTw" id="14tnK5okSJ3" role="10QFUP">
-                            <ref role="3cqZAo" node="14tnK5okSIY" resolve="contextCell" />
+                            <ref role="3cqZAo" node="14tnK5okSIY" resolve="editorCell" />
                           </node>
                           <node concept="3uibUv" id="14tnK5okR3c" role="10QFUM">
                             <ref role="3uigEE" to="g51k:~EditorCell_Property" resolve="EditorCell_Property" />
@@ -383,7 +383,7 @@
                     <ref role="3uigEE" to="g51k:~EditorCell_Property" resolve="EditorCell_Property" />
                   </node>
                   <node concept="37vLTw" id="14tnK5okSUL" role="2ZW6bz">
-                    <ref role="3cqZAo" node="14tnK5okSIY" resolve="contextCell" />
+                    <ref role="3cqZAo" node="14tnK5okSIY" resolve="editorCell" />
                   </node>
                 </node>
               </node>

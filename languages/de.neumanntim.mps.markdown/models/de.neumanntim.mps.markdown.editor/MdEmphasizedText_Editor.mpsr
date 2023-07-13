@@ -180,7 +180,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="A1WHu" id="5ujOtIIOZwY" role="3vIgyS">
-          <ref role="A1WHt" node="5ujOtIINATX" resolve="ContinueWritingForNewBasicText" />
+          <ref role="A1WHt" node="5ujOtIINATX" resolve="ContinueWritingRightForNewBasicText" />
         </node>
       </node>
       <node concept="2iRfu4" id="6PCt4gx9BK9" role="2iSdaV" />

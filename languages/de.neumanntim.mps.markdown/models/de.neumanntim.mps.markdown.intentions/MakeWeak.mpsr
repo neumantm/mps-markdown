@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5c0b8bcc-b286-43c8-9a63-b43370b796af(de.neumanntim.mps.markdown.intentions)">
+<model ref="r:5c0b8bcc-b286-43c8-9a63-b43370b796af(de.neumanntim.mps.markdown.intentions)" content="root">
   <persistence version="9" />
-  <languages>
-    <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="1" />
-    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  </languages>
   <imports>
     <import index="mlia" ref="r:82b7010e-7356-42d9-a529-d70891b7b9bd(de.neumanntim.mps.markdown.structure)" implicit="true" />
   </imports>
@@ -31,12 +27,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
-        <property id="1068580123138" name="value" index="3clFbU" />
-      </concept>
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
     </language>
     <language id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions">
       <concept id="1192794744107" name="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" flags="ig" index="2S6QgY" />
@@ -65,51 +56,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="2S6QgY" id="5ujOtIIl4kE">
-    <property role="3GE5qa" value="line" />
-    <property role="TrG5h" value="MakeStrong" />
-    <ref role="2ZfgGC" to="mlia:6PCt4gx9AR1" resolve="MdEmphasizedText" />
-    <node concept="2S6ZIM" id="5ujOtIIl4kF" role="2ZfVej">
-      <node concept="3clFbS" id="5ujOtIIl4kG" role="2VODD2">
-        <node concept="3clFbF" id="5ujOtIIl4GC" role="3cqZAp">
-          <node concept="Xl_RD" id="5ujOtIIl4GB" role="3clFbG">
-            <property role="Xl_RC" value="Make this a strong emphasis" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="5ujOtIIl4kH" role="2ZfgGD">
-      <node concept="3clFbS" id="5ujOtIIl4kI" role="2VODD2">
-        <node concept="3clFbF" id="5ujOtIIl5PM" role="3cqZAp">
-          <node concept="37vLTI" id="5ujOtIIl6Te" role="3clFbG">
-            <node concept="2OqwBi" id="5ujOtIIl5S2" role="37vLTJ">
-              <node concept="2Sf5sV" id="5ujOtIIl5PL" role="2Oq$k0" />
-              <node concept="3TrcHB" id="5ujOtIIl5Xp" role="2OqNvi">
-                <ref role="3TsBF5" to="mlia:6PCt4gx9Bom" resolve="strong" />
-              </node>
-            </node>
-            <node concept="3clFbT" id="5ujOtIIl82p" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2SaL7w" id="5ujOtIIl4Zi" role="2ZfVeh">
-      <node concept="3clFbS" id="5ujOtIIl4Zj" role="2VODD2">
-        <node concept="3clFbF" id="5ujOtIIl9P2" role="3cqZAp">
-          <node concept="3fqX7Q" id="5ujOtIIl9TG" role="3clFbG">
-            <node concept="2OqwBi" id="5ujOtIIl9TI" role="3fr31v">
-              <node concept="2Sf5sV" id="5ujOtIIl9TJ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="5ujOtIIl9TK" role="2OqNvi">
-                <ref role="3TsBF5" to="mlia:6PCt4gx9Bom" resolve="strong" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="2S6QgY" id="5ujOtIIl8eL">
     <property role="3GE5qa" value="line" />
     <property role="TrG5h" value="MakeWeak" />

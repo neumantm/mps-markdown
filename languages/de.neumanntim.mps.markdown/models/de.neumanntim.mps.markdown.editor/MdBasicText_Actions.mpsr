@@ -130,7 +130,7 @@
                     <node concept="2OqwBi" id="29jyUzps6A7" role="3fr31v">
                       <node concept="0IXxy" id="29jyUzps6A8" role="2Oq$k0" />
                       <node concept="2qgKlT" id="29jyUzps6A9" role="2OqNvi">
-                        <ref role="37wK5l" to="le1w:29jyUzps08n" resolve="isVisible" />
+                        <ref role="37wK5l" to="le1w:29jyUzps08n" resolve="hasVisibleChars" />
                       </node>
                     </node>
                   </node>
@@ -140,7 +140,7 @@
             <node concept="3fqX7Q" id="7zjXmnzQekr" role="3clFbw">
               <node concept="2YIFZM" id="7zjXmnzQekt" role="3fr31v">
                 <ref role="37wK5l" to="4dhs:7zjXmnzg6M$" resolve="deleteWholeMdTextlineIfAppropriate" />
-                <ref role="1Pybhc" to="4dhs:7zjXmnzg6GH" resolve="MdTextlineActionHelper" />
+                <ref role="1Pybhc" to="4dhs:7zjXmnzg6GH" resolve="MdLineActionHelper" />
                 <node concept="1Q80Hx" id="7zjXmnzQeku" role="37wK5m" />
                 <node concept="3clFbT" id="7zjXmnzQekv" role="37wK5m" />
               </node>
@@ -185,7 +185,7 @@
                     <node concept="2OqwBi" id="29jyUzps7bX" role="3fr31v">
                       <node concept="0IXxy" id="29jyUzps7bY" role="2Oq$k0" />
                       <node concept="2qgKlT" id="29jyUzps7bZ" role="2OqNvi">
-                        <ref role="37wK5l" to="le1w:29jyUzps08n" resolve="isVisible" />
+                        <ref role="37wK5l" to="le1w:29jyUzps08n" resolve="hasVisibleChars" />
                       </node>
                     </node>
                   </node>
@@ -195,7 +195,7 @@
             <node concept="3fqX7Q" id="7zjXmnzhNzZ" role="3clFbw">
               <node concept="2YIFZM" id="7zjXmnzhN$0" role="3fr31v">
                 <ref role="37wK5l" to="4dhs:7zjXmnzg6M$" resolve="deleteWholeMdTextlineIfAppropriate" />
-                <ref role="1Pybhc" to="4dhs:7zjXmnzg6GH" resolve="MdTextlineActionHelper" />
+                <ref role="1Pybhc" to="4dhs:7zjXmnzg6GH" resolve="MdLineActionHelper" />
                 <node concept="1Q80Hx" id="7zjXmnzhNVE" role="37wK5m" />
                 <node concept="3clFbT" id="7zjXmnzhNY1" role="37wK5m">
                   <property role="3clFbU" value="true" />

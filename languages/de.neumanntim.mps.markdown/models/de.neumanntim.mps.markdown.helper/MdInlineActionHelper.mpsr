@@ -187,11 +187,11 @@
               <node concept="3cpWsn" id="7zjXmnzZhZB" role="3cpWs9">
                 <property role="TrG5h" value="resultCaretPosition" />
                 <node concept="3uibUv" id="7zjXmnzZhWy" role="1tU5fm">
-                  <ref role="3uigEE" node="7zjXmnz_hYH" resolve="AfterMergeCaretPosition" />
+                  <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
                 </node>
                 <node concept="2YIFZM" id="7zjXmnzZhZC" role="33vP2m">
                   <ref role="37wK5l" node="7zjXmnzUbty" resolve="mergeOrRemoveBasicTextsIfNeccesarry" />
-                  <ref role="1Pybhc" node="7zjXmnzg6GH" resolve="MdTextlineActionHelper" />
+                  <ref role="1Pybhc" node="7zjXmnzg6GH" resolve="MdLineActionHelper" />
                   <node concept="2OqwBi" id="7zjXmnzZhZD" role="37wK5m">
                     <node concept="37vLTw" id="7zjXmnzZhZE" role="2Oq$k0">
                       <ref role="3cqZAo" node="7zjXmnzZqkW" resolve="nodeToCheckForMerge" />
@@ -258,11 +258,11 @@
               <node concept="3cpWsn" id="7zjXmnzZszX" role="3cpWs9">
                 <property role="TrG5h" value="resultCaretPosition" />
                 <node concept="3uibUv" id="7zjXmnzZszY" role="1tU5fm">
-                  <ref role="3uigEE" node="7zjXmnz_hYH" resolve="AfterMergeCaretPosition" />
+                  <ref role="3uigEE" node="7zjXmnz_hYH" resolve="MdLineActionHelper.AfterMergeCaretPosition" />
                 </node>
                 <node concept="2YIFZM" id="7zjXmnzZszZ" role="33vP2m">
                   <ref role="37wK5l" node="7zjXmnzUbty" resolve="mergeOrRemoveBasicTextsIfNeccesarry" />
-                  <ref role="1Pybhc" node="7zjXmnzg6GH" resolve="MdTextlineActionHelper" />
+                  <ref role="1Pybhc" node="7zjXmnzg6GH" resolve="MdLineActionHelper" />
                   <node concept="37vLTw" id="7zjXmnzZs$1" role="37wK5m">
                     <ref role="3cqZAo" node="7zjXmnzZqkW" resolve="nodeToCheckForMerge" />
                   </node>

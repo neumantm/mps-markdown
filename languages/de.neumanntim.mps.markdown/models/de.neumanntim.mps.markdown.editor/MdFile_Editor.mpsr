@@ -78,7 +78,7 @@
       </node>
       <node concept="PMmxH" id="5ujOtIIJsme" role="3EZMnx">
         <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
-        <ref role="PMmxG" node="5ujOtIIIUhb" resolve="MarkdownContainer_Editor_Component" />
+        <ref role="PMmxG" node="5ujOtIIIUhb" resolve="MdContainer_Editor_Component" />
       </node>
       <node concept="2iRkQZ" id="6PCt4gxDF40" role="2iSdaV" />
     </node>

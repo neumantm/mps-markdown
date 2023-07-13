@@ -161,7 +161,7 @@
                     <node concept="3clFbF" id="7zjXmnzZQeZ" role="3cqZAp">
                       <node concept="2YIFZM" id="7zjXmnzZQf0" role="3clFbG">
                         <ref role="37wK5l" to="4dhs:7zjXmnzZ82O" resolve="replaceElementWithBasicText" />
-                        <ref role="1Pybhc" to="4dhs:7zjXmnzZ80F" resolve="MdTextelementActionHelper" />
+                        <ref role="1Pybhc" to="4dhs:7zjXmnzZ80F" resolve="MdInlineActionHelper" />
                         <node concept="0IXxy" id="7zjXmnzZQf1" role="37wK5m" />
                         <node concept="2OqwBi" id="7zjXmnzZQf2" role="37wK5m">
                           <node concept="0IXxy" id="7zjXmnzZQf3" role="2Oq$k0" />
