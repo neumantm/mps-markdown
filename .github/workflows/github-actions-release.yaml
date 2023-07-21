@@ -1,4 +1,4 @@
-### This file is downloaded from https://github.com/vimotest/mps-gradle-scripts/raw/main/.github/workflows/github-actions-release.yaml
+### This file is downloaded from https://github.com/neumantm/mps-gradle-scripts/raw/main/.github/workflows/github-actions-release.yaml
 
 name: Release Build
 
@@ -8,7 +8,6 @@ on:
       - '*.*.*'
 
 env:
-  PROJECT_NAME: "mps-markdown"
   LANGUAGE_NAME: "mps-markdown"
 
 jobs:
@@ -23,7 +22,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build-artifacts
-          path: build/artifacts/${{ env.PROJECT_NAME }}
+          path: build/artifacts
 
       - name: Extract branch name
         shell: bash
@@ -55,6 +54,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
-          asset_path: build/artifacts/${{ env.PROJECT_NAME }}/${{ env.LANGUAGE_NAME }}.zip
+          asset_path: build/artifacts/${{ env.LANGUAGE_NAME }}.zip
           asset_name: ${{ env.LANGUAGE_NAME }}.zip
           asset_content_type: application/zip

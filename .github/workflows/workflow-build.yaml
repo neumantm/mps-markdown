@@ -1,4 +1,4 @@
-### This file is downloaded from https://github.com/vimotest/mps-gradle-scripts/raw/main/.github/workflows/workflow-build.yaml
+### This file is downloaded from https://github.com/neumantm/mps-gradle-scripts/raw/main/.github/workflows/workflow-build.yaml
 
 name: Java Build using Gradle Wrapper
 
@@ -6,7 +6,7 @@ on:
   workflow_call:
 
 env:
-  PROJECT_NAME: "mps-markdown"
+  PLUGIN_NAME: "de.neumanntim.mps.markdown"
   LANGUAGE_NAME: "mps-markdown"
 
 jobs:
@@ -49,4 +49,4 @@ jobs:
         with:
           name: build-artifacts
           path: |
-            build/artifacts/${{ env.PROJECT_NAME }}/${{ env.LANGUAGE_NAME }}.zip
+            build/artifacts/${{ env.PLUGIN_NAME }}/${{ env.LANGUAGE_NAME }}.zip
