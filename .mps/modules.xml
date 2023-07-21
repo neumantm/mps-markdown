@@ -4,7 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/de.neumanntim.mps.markdown.sandbox/de.neumanntim.mps.markdown.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/mps-markdown.build/mps-markdown.build.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.neumanntim.mps.markdown.build/de.neumanntim.mps.markdown.build.msd" folder="" />
     </projectModules>
   </component>
   <component name="ProjectModuleManager">
