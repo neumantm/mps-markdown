@@ -8,9 +8,7 @@
   <property name="mps.macro.project_home" location="${basedir}" />
   <property name="deps_home" location="${basedir}/build/mps-bundle/dependencies" />
   <property name="artifacts.mps" location="${mps_home}" />
-  <property name="artifacts.de.itemis.mps.extensions" location="${deps_home}" />
   <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
-  <property file="${artifacts.de.itemis.mps.extensions}/build.properties" prefix="import.de.itemis.mps.extensions" />
   <property name="mps.build.number" value="${import.mps.mps.build.number}" />
   <property name="mps.date" value="${import.mps.mps.date}" />
   <property name="mps.build.vcs.number" value="${import.mps.mps.build.vcs.number}" />
@@ -22,7 +20,6 @@
   <property name="mpsBootstrapCore.version.bugfixNr" value="${import.mps.mpsBootstrapCore.version.bugfixNr}" />
   <property name="mpsBootstrapCore.version.eap" value="${import.mps.mpsBootstrapCore.version.eap}" />
   <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
-  <property name="de.itemis.mps.extensions.versionNumber" value="${import.de.itemis.mps.extensions.de.itemis.mps.extensions.versionNumber}" />
   <property name="environment" value="env" />
   <property name="env.JAVA_HOME" value="${java.home}/.." />
   <property name="jdk.home" value="${env.JAVA_HOME}" />
@@ -43,16 +40,15 @@
   
   <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.tmp}/default/mps-markdown.zip" />
-    <mkdir dir="${build.tmp}/default/mps-markdown.zip/mps.markdown" />
-    <mkdir dir="${build.tmp}/default/mps-markdown.zip/mps.markdown/META-INF" />
-    <echoxml file="${build.tmp}/default/mps-markdown.zip/mps.markdown/META-INF/plugin.xml">
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.zip" />
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown" />
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/META-INF" />
+    <echoxml file="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/META-INF/plugin.xml">
       <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
         <id>de.neumanntim.mps.markdown</id>
         <name>de.neumanntim.mps.markdown</name>
         <version>1.0</version>
-        <depends>jetbrains.mps.core</depends>
-        <depends>de.itemis.mps.extensions.build</depends>
+        <depends>jetbrains.mps.build</depends>
         <depends>com.intellij.modules.platform</depends>
         
         <extensions defaultExtensionNs="com.intellij">
@@ -60,31 +56,30 @@
         </extensions>
       </idea-plugin>
     </echoxml>
-    <mkdir dir="${build.tmp}/default/mps-markdown.zip/mps.markdown/lib" />
-    <mkdir dir="${build.tmp}/default/mps.markdown.jar" />
-    <mkdir dir="${build.tmp}/default/mps.markdown.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/mps.markdown.jar/META-INF/plugin.xml">
-      <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
-        <id>de.neumanntim.mps.markdown</id>
-        <name>de.neumanntim.mps.markdown</name>
-        <version>1.0</version>
-        <depends>jetbrains.mps.core</depends>
-        <depends>de.itemis.mps.extensions.build</depends>
-        <depends>com.intellij.modules.platform</depends>
-        
-        <extensions defaultExtensionNs="com.intellij">
-          <mps.LanguageLibrary dir="/languages" />
-        </extensions>
-      </idea-plugin>
-    </echoxml>
-    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps.markdown/lib/mps.markdown.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/default/mps.markdown.jar" />
-    </jar>
-    <mkdir dir="${build.tmp}/default/mps-markdown.zip/mps.markdown/languages" />
-    <mkdir dir="${build.tmp}/default/mps-markdown.zip/mps.markdown/languages/mps.markdown" />
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/lib" />
     <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.jar" />
     <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/de.neumanntim.mps.markdown.jar/META-INF/module.xml">
+    <echoxml file="${build.tmp}/default/de.neumanntim.mps.markdown.jar/META-INF/plugin.xml">
+      <idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
+        <id>de.neumanntim.mps.markdown</id>
+        <name>de.neumanntim.mps.markdown</name>
+        <version>1.0</version>
+        <depends>jetbrains.mps.build</depends>
+        <depends>com.intellij.modules.platform</depends>
+        
+        <extensions defaultExtensionNs="com.intellij">
+          <mps.LanguageLibrary dir="/languages" />
+        </extensions>
+      </idea-plugin>
+    </echoxml>
+    <jar destfile="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/lib/de.neumanntim.mps.markdown.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/default/de.neumanntim.mps.markdown.jar" />
+    </jar>
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/languages" />
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/languages/de.neumanntim.mps.markdown" />
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.jar1" />
+    <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown.jar1/META-INF" />
+    <echoxml file="${build.tmp}/default/de.neumanntim.mps.markdown.jar1/META-INF/module.xml">
       <module namespace="de.neumanntim.mps.markdown" type="language" uuid="8200bdbd-274e-492c-a4de-4849bbe9fc7a">
         <dependencies>
           <module ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" kind="rt" />
@@ -147,11 +142,11 @@
         <sources jar="de.neumanntim.mps.markdown-src.jar" descriptor="de.neumanntim.mps.markdown.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps.markdown/languages/mps.markdown/de.neumanntim.mps.markdown.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/de.neumanntim.mps.markdown" />
       <fileset dir="${basedir}/languages/de.neumanntim.mps.markdown" includes="icons/**, resources/**" />
       <fileset dir="${project_home}/languages/de.neumanntim.mps.markdown/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/de.neumanntim.mps.markdown.jar" />
+      <fileset dir="${build.tmp}/default/de.neumanntim.mps.markdown.jar1" />
     </jar>
     <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown-generator.jar" />
     <mkdir dir="${build.tmp}/default/de.neumanntim.mps.markdown-generator.jar/META-INF" />
@@ -193,7 +188,7 @@
         <sources jar="de.neumanntim.mps.markdown-src.jar" descriptor="de.neumanntim.mps.markdown.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps.markdown/languages/mps.markdown/de.neumanntim.mps.markdown-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/de.neumanntim.mps.markdown.generator" />
       <fileset dir="${project_home}/languages/de.neumanntim.mps.markdown/generator/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/de.neumanntim.mps.markdown-generator.jar" />
@@ -204,7 +199,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-de.neumanntim.mps.markdown-generator-templates">
       <fileset dir="${project_home}/languages/de.neumanntim.mps.markdown/generator/templates" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps.markdown/languages/mps.markdown/de.neumanntim.mps.markdown-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown-src.jar" duplicate="preserve">
       <fileset dir="${project_home}/languages/de.neumanntim.mps.markdown/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -226,7 +221,6 @@
     <echoxml file="${build.tmp}/default/de.neumanntim.mps.markdown.build.jar/META-INF/module.xml">
       <module namespace="de.neumanntim.mps.markdown.build" type="solution" uuid="82b026ec-521a-41ab-9d6e-7ca53ee958e9">
         <dependencies>
-          <module ref="f1fb7b1c-ce0d-423c-9369-4a661d600029(de.itemis.mps.extensions.build)" kind="cl" />
           <module ref="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" kind="cl" />
         </dependencies>
         <uses>
@@ -239,7 +233,7 @@
         <sources jar="de.neumanntim.mps.markdown.build-src.jar" descriptor="de.neumanntim.mps.markdown.build.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps.markdown/languages/mps.markdown/de.neumanntim.mps.markdown.build.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown.build.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/de.neumanntim.mps.markdown.build" />
       <fileset dir="${project_home}/solutions/de.neumanntim.mps.markdown.build/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/de.neumanntim.mps.markdown.build.jar" />
@@ -247,7 +241,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-de.neumanntim.mps.markdown.build-models">
       <fileset dir="${project_home}/solutions/de.neumanntim.mps.markdown.build/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.tmp}/default/mps-markdown.zip/mps.markdown/languages/mps.markdown/de.neumanntim.mps.markdown.build-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/de.neumanntim.mps.markdown.zip/de.neumanntim.mps.markdown/languages/de.neumanntim.mps.markdown/de.neumanntim.mps.markdown.build-src.jar" duplicate="preserve">
       <fileset dir="${project_home}/solutions/de.neumanntim.mps.markdown.build/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -257,10 +251,10 @@
       <zipfileset file="${basedir}/solutions/de.neumanntim.mps.markdown.build/de.neumanntim.mps.markdown.build.msd" prefix="module" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-de.neumanntim.mps.markdown.build-models" prefix="module/models" />
     </jar>
-    <zip destfile="${build.layout}/mps-markdown.zip">
-      <fileset dir="${build.tmp}/default/mps-markdown.zip" />
+    <zip destfile="${build.layout}/de.neumanntim.mps.markdown.zip">
+      <fileset dir="${build.tmp}/default/de.neumanntim.mps.markdown.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.versionNumber=${de.itemis.mps.extensions.versionNumber}</echo>
+    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}</echo>
   </target>
   
   <target name="buildDependents" />
@@ -288,7 +282,6 @@
     <echo message="generating" />
     <generate fork="true" logLevel="${mps.ant.log}">      
       <settings refid="m2m-defaults" />
-      <plugin path="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.extensions.build" />
       <plugin path="${artifacts.mps}/plugins/mps-build" />
       <plugin path="${artifacts.mps}/plugins/mps-core" />
       <library file="${artifacts.mps}/languages/baseLanguage/closures.runtime.jar" />
@@ -540,9 +533,7 @@
       <src>
         <path location="${project_home}/solutions/de.neumanntim.mps.markdown.build/source_gen" />
       </src>
-      <classpath>
-        <fileset file="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.extensions.build/languages/de.itemis.mps.extensions.build/de.itemis.mps.extensions.build.jar" />
-      </classpath>
+      <classpath />
     </javac>
   </target>
   

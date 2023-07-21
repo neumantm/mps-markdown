@@ -8,7 +8,7 @@ on:
       - '*.*.*'
 
 env:
-  LANGUAGE_NAME: "mps-markdown"
+  LANGUAGE_NAME: "de.neumanntim.mps.markdown"
 
 jobs:
   call-build-workflow:
