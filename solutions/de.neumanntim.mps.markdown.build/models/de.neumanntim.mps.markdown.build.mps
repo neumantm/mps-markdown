@@ -178,15 +178,19 @@
       </node>
     </node>
     <node concept="1l3spV" id="2ombABepQeM" role="1l3spN">
-      <node concept="3981dG" id="2ombABepQeN" role="39821P">
-        <node concept="3_J27D" id="2ombABepQeO" role="Nbhlr">
-          <node concept="3Mxwew" id="2ombABepQeP" role="3MwsjC">
+      <node concept="m$_wl" id="4s518u6vAxg" role="39821P">
+        <ref role="m_rDy" node="2ombABepQe_" resolve="de.neumanntim.mps.markdown" />
+        <node concept="pUk6x" id="4s518u6vAxr" role="pUk7w" />
+      </node>
+      <node concept="3981dG" id="6lnvyQxyzDY" role="39821P">
+        <node concept="3_J27D" id="6lnvyQxyzE0" role="Nbhlr">
+          <node concept="3Mxwew" id="6lnvyQxyzE6" role="3MwsjC">
             <property role="3MwjfP" value="de.neumanntim.mps.markdown.zip" />
           </node>
         </node>
-        <node concept="m$_wl" id="2ombABepQeQ" role="39821P">
-          <ref role="m_rDy" node="2ombABepQe_" resolve="mps_markdown" />
-          <node concept="pUk6x" id="2ombABepQeR" role="pUk7w" />
+        <node concept="m$_wl" id="6lnvyQxyzE8" role="39821P">
+          <ref role="m_rDy" node="2ombABepQe_" resolve="de.neumanntim.mps.markdown" />
+          <node concept="pUk6x" id="6lnvyQxyzEc" role="pUk7w" />
         </node>
       </node>
     </node>
