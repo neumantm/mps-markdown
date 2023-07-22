@@ -3,7 +3,7 @@
  */
 
 ext.mpsVersion = "2022.2"
-ext.languageName = "mps-markdown"
+ext.languageName = "de.neumanntim.mps.markdown"
 ext.pluginName = "de.neumanntim.mps.markdown"
 
 ext.gradleScriptsRepoUrl = "https://github.com/neumantm/mps-gradle-scripts/raw/main"

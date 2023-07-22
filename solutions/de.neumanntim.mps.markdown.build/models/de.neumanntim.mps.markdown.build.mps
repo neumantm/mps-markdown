@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -178,22 +177,20 @@
         <ref role="398BVh" node="2ombABepQel" resolve="mps_home" />
       </node>
     </node>
-    <node concept="2sgV4H" id="38MlCki16zm" role="1l3spa">
-      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="38MlCki16zr" role="2JcizS">
-        <ref role="398BVh" node="1JDJfMrh4X" resolve="deps_home" />
-      </node>
-    </node>
     <node concept="1l3spV" id="2ombABepQeM" role="1l3spN">
-      <node concept="3981dG" id="2ombABepQeN" role="39821P">
-        <node concept="3_J27D" id="2ombABepQeO" role="Nbhlr">
-          <node concept="3Mxwew" id="2ombABepQeP" role="3MwsjC">
-            <property role="3MwjfP" value="mps-markdown.zip" />
+      <node concept="m$_wl" id="4s518u6vAxg" role="39821P">
+        <ref role="m_rDy" node="2ombABepQe_" resolve="de.neumanntim.mps.markdown" />
+        <node concept="pUk6x" id="4s518u6vAxr" role="pUk7w" />
+      </node>
+      <node concept="3981dG" id="6lnvyQxyzDY" role="39821P">
+        <node concept="3_J27D" id="6lnvyQxyzE0" role="Nbhlr">
+          <node concept="3Mxwew" id="6lnvyQxyzE6" role="3MwsjC">
+            <property role="3MwjfP" value="de.neumanntim.mps.markdown.zip" />
           </node>
         </node>
-        <node concept="m$_wl" id="2ombABepQeQ" role="39821P">
-          <ref role="m_rDy" node="2ombABepQe_" resolve="mps_markdown" />
-          <node concept="pUk6x" id="2ombABepQeR" role="pUk7w" />
+        <node concept="m$_wl" id="6lnvyQxyzE8" role="39821P">
+          <ref role="m_rDy" node="2ombABepQe_" resolve="de.neumanntim.mps.markdown" />
+          <node concept="pUk6x" id="6lnvyQxyzEc" role="pUk7w" />
         </node>
       </node>
     </node>
@@ -213,14 +210,11 @@
         <ref role="m$f5T" node="2ombABepQe$" resolve="mps-markdown" />
       </node>
       <node concept="m$_yC" id="2ombABepQeF" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-      </node>
-      <node concept="m$_yC" id="1JDJfMrh7D" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:4hvHh3QW$Eh" resolve="de.itemis.mps.extensions.build" />
+        <ref role="m$_y1" to="ffeo:5HVSRHdVm9a" resolve="jetbrains.mps.build" />
       </node>
       <node concept="3_J27D" id="2ombABepQeG" role="m_cZH">
         <node concept="3Mxwew" id="2ombABepQeH" role="3MwsjC">
-          <property role="3MwjfP" value="mps.markdown" />
+          <property role="3MwjfP" value="de.neumanntim.mps.markdown" />
         </node>
       </node>
       <node concept="2pNNFK" id="2ombABepQeI" role="20twgj">
@@ -231,7 +225,7 @@
       </node>
     </node>
     <node concept="2G$12M" id="2ombABepQe$" role="3989C9">
-      <property role="TrG5h" value="mps.markdown" />
+      <property role="TrG5h" value="de.neumanntim.mps.markdown" />
       <node concept="1E1JtD" id="2ombABepQet" role="2G$12L">
         <property role="TrG5h" value="de.neumanntim.mps.markdown" />
         <property role="3LESm3" value="8200bdbd-274e-492c-a4de-4849bbe9fc7a" />
@@ -337,11 +331,6 @@
                 <property role="2Ry0Am" value="de.neumanntim.mps.markdown.build.msd" />
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1JDJfMrh70" role="3bR37C">
-          <node concept="3bR9La" id="1JDJfMrh71" role="1SiIV1">
-            <ref role="3bR37D" to="90a9:PE3B26VOkn" resolve="de.itemis.mps.extensions.build" />
           </node>
         </node>
         <node concept="1SiIV0" id="1JDJfMrh72" role="3bR37C">

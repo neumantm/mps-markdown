@@ -7,7 +7,7 @@ on:
 
 env:
   PLUGIN_NAME: "de.neumanntim.mps.markdown"
-  LANGUAGE_NAME: "mps-markdown"
+  LANGUAGE_NAME: "de.neumanntim.mps.markdown"
 
 jobs:
   build:
