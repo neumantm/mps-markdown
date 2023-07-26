@@ -41,7 +41,7 @@ Here are some notes on the less obvious parts.
 ### Re-Generating TextGen
 
 - Right-click the language and select Generate TextGen
-- In `MdFile_TextGen` set extension to `.md`
+- In `MdFile_TextGen` set extension to `.md` and path query to `node.path.isEmpty ? null : node.path;`
 - In `MdLine_TextGen` and `MdLink_textGen` remove section creating whitespace between elements
 - In `MdBulletListItem` add `boolean first = true;` before the loop and
   ```
